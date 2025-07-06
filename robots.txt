@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://Biao-Gong.github.io/sitemap.xml
