@@ -218,26 +218,6 @@ Agent：Qwen2.5-VL 直接作为一个视觉 Agent，可以推理并动态地使�
     </item>
     
     <item>
-      <title>面向有效的数学推理过程监督</title>
-      <link>https://Biao-Gong.github.io/zh/blog/qwen2.5-math-prm/</link>
-      <pubDate>Tue, 14 Jan 2025 00:00:03 +0800</pubDate>
-      
-      <guid>https://Biao-Gong.github.io/zh/blog/qwen2.5-math-prm/</guid>
-      <description>GITHUB HUGGING FACE MODELSCOPE DISCORD
-引言 近年来，大型语言模型（LLMs）在数学推理方面取得了显著进展，但它们仍可能犯错误，如计算错误或逻辑错误，导致得出错误结论。 此外，即使最终答案正确，这些强大的模型也经常编造看似合理的推理步骤，其中最终答案基于有缺陷的计算或推导过程，这削弱了LLMs推理过程的可靠性和可信度。 因此，自动识别推理过程中的错误对于其可扩展监督变得越来越重要。
-过程奖励模型（Process Reward Models, PRMs）作为数学推理过程监督中的一种有前途的方法出现，旨在识别和减轻推理过程中的中间错误。在评估方面，以往的研究主要依赖于响应级别的Best-of-N（BoN）评估，即根据PRM从N个候选答案中选择得分最高的响应。
-今天，我们开源了最先进的PRMs，它优于现有的开源PRM。我们还发布了步骤级别的评估标准 ProcessBench，用于测量模型识别数学推理中错误步骤的能力。
-ProcessBench 开源 ProcessBench旨在衡量模型识别数学推理中错误步骤的能力。 它由3,400个测试案例组成，主要集中在竞赛和奥林匹克级别的数学问题上。每个测试案例包含一个逐步解决方案，并由人类专家标注错误位置。 模型需要识别出第一个错误的步骤，或者得出所有步骤都正确的结论。 ProcessBench可以用于评估两种类型的模型：PRMs和批评模型，后者通过提示通用语言模型来逐步检查回答中的步骤。
-Process Reward Model 开源 我们发布了两个PRMs，即Qwen2.5-Math-PRM-7B和Qwen2.5-Math-PRM-72B，它们分别在Qwen2.5-Math-7B-Instruct和Qwen2.5-Math-72B-Instruct上进行微调得来。 我们训练的PRMs在BoN评估中表现出色，在ProcessBench上的错误步骤识别能力也更强。
-Best-of-N 评测 按照Qwen2.5-Math的方法，我们从多个数学基准测试中用Qwen2.5-Math-7B-Instruct采样了八个回答（即N=8），包括GSM8K、MATH、Minerva Math、GaoKao 2023 En、OlympiadBench、College Math和MMLU STEM。 每个候选回答的得分是该回答中每个步骤的分数乘积。 我们将八次采样中的多数投票结果（maj@8）作为基线，将pass@8（即在八次采样中有任意一个采样得出正确最终答案的测试样本比例）作为上限。
-如下表所示，Qwen2.5-Math-PRM-7B相比其他同等规模的PRMs表现出更优的性能。值得注意的是，它在所有7项任务中均优于maj@8，平均提高了1.4%。 此外，Qwen2.5-Math-PRM-72B的整体性能略优于Outcome Reward Model (ORM) Qwen2.5-Math-RM-72B，特别是在Minerva Math和MMLU STEM任务中表现显著。
-ProcessBench 我们还在ProcessBench上评估了我们的PRMs，以测量其识别错误步骤的能力。 与LLM-as-judge相比，Qwen2.5-Math-PRM-7B以较小规模在所有开源LLM中表现出色；对于闭源模型，Qwen2.5-Math-PRM-7B超越了GPT-4o-0806，但在性能上仍与o1-mini存在差距。 此外，与现有的PRMs相比，Qwen2.5-Math-PRM-7B和Qwen2.5-Math-PRM-72B都显示出显著的优势。 一个有趣的观察是，ORM Qwen2.5-Math-RM-72B在识别步骤错误方面也表现出不错的能力，甚至超过了某些开源PRMs。
-结论 ProcessBench展示了现有PRMs面临的挑战，并填补了PRMs步骤级别评估的空白。 除了开源PRMs以外，我们还在论文中通过广泛的实证研究识别了当前PRMs数据构建方法的局限性，并揭示了仅使用响应级别BoN评估PRMs的潜在偏差。 我们希望ProcessBench、我们开发PRM的最佳实践能够促进未来对推理过程监督的研究和开发。 更多细节请查看我们下面的论文。
-引用 如果你觉得我们的工作有用，欢迎引用！
-@article{processbench, title={{ProcessBench:} Identifying Process Errors in Mathematical Reasoning}, author={ Chujie Zheng and Zhenru Zhang and Beichen Zhang and Runji Lin and Keming Lu and Bowen Yu and Dayiheng Liu and Jingren Zhou and Junyang Lin }, journal={arXiv preprint arXiv:2412.</description>
-    </item>
-    
-    <item>
       <title>QVQ: 更睿智地看世界</title>
       <link>https://Biao-Gong.github.io/zh/blog/qvq-72b-preview/</link>
       <pubDate>Wed, 25 Dec 2024 00:00:03 +0800</pubDate>
@@ -365,23 +345,6 @@ Qwen2.5 LLM Qwen2.5-Coder Qwen2.5-Math
 本次更新的两大核心包括代码训练数据的进一步 scaling，以及探索在提升代码能力的同时保持数学和通用能力。
 码无止境：Qwen2.5-Coder 基于强大的 Qwen2.5 初始化，扩增了更大规模的代码训练数据持续训练，包括源代码、文本代码混合数据、合成数据等共计 5.5T tokens。使得 Qwen2.5-Coder 在代码生成、代码推理、代码修复等任务上都有了显著提升。 学无止境：我们希望 Qwen2.5-Coder 在提升代码能力的同时，也能保持在数学、通用能力等方面的优势。因此，我们在 Qwen2.5-Coder 中加入了更多的数学、通用能力数据，为未来的真实应用提供更为全面的基座。 Qwen2.5-Coder: Base Models Qwen2.5-Coder 最多 128K tokens 上下文，支持 92 种编程语言，并在多个代码相关的评估任务中都取得了显著的提升，包括代码生成、多编程语言代码生成、代码补全、代码修复等。值得注意的是，本次开源的 7B 版本 Qwen2.5-Coder，甚至打败了更大尺寸的 DeepSeek-Coder-V2-Lite 和 CodeStral-22B，成为当前最强大的基础代码模型之一。除了代码任务外，Qwen2.5-Coder 也具备极具竞争力的数学能力。面向通用任务，我们评估了 MMLU 和 ARC，结果表明 Qwen2.5-Coder 很好的保持了 Qwen2.5 的通用能力。
 Qwen2.5-Coder-Instruct: Instruction-Tuned Models 我们在 Qwen2.5-Coder 的基础上，通过指令微调，得到了 Qwen2.5-Coder-Instruct。Qwen2.5-Coder-Instruct 除了进一步提升了多个任务上的性能外，还在更多的评估中体现出了卓越的泛化性。</description>
-    </item>
-    
-    <item>
-      <title>Qwen2.5-Math: 世界领先的数学开源大语言模型</title>
-      <link>https://Biao-Gong.github.io/zh/blog/qwen2.5-math/</link>
-      <pubDate>Thu, 19 Sep 2024 00:00:01 +0800</pubDate>
-      
-      <guid>https://Biao-Gong.github.io/zh/blog/qwen2.5-math/</guid>
-      <description>GITHUB HUGGING FACE MODELSCOPE DISCORD
-🚨 Qwen2.5-Math主要被设计用于通过CoT或TIR的方式解中英数学题，我们不推荐在其他任务上使用该系列模型。 简介 一个月前，我们开源了 Qwen 家族的第一款数学专项大语言模型- Qwen2-Math。 今天，我们将它再度升级并开源 Qwen2.5-Math 系列，包括基础模型 Qwen2.5-Math-1.5B/7B/72B，指令微调模型Qwen2.5-Math-1.5B/7B/72B-Instruct和数学奖励模型 Qwen2.5-Math-RM-72B。
-相较于 Qwen2-Math 只支持使用思维链（CoT）解答英文数学题目，Qwen2.5 系列扩展为同时支持使用思维链和工具集成推理（TIR） 解决中英双语的数学题。Qwen2.5-Math系列相比上一代Qwen2.5-Math在中文和英文的数学解题能力上均实现了显著提升。
-虽然 CoT 在增强 LLM 的推理能力方面发挥着重要作用，但它在实现计算精度和处理复杂的数学或算法推理任务方面依然面临挑战，例如寻找二次方程的根或计算矩阵的特征值等等。而 TIR（如使用python解释器）可以进一步提高模型在精确计算、符号操作和算法操作方面的能力。Qwen2.5-Math-1.5B/7B/72B-Instruct 使用 TIR 在 MATH 基准测试中分别达到 79.7、85.3 和 87.8的高分。
-Qwen2.5-Math: 基础模型 Qwen2-Math 和 Qwen2.5-Math 的整体训练流程如上图所示。在训练完 Qwen2-Math 基础模型后，我们通过三个主要途径将其进一步升级为 Qwen2.5-Math 模型：
-1）利用 Qwen2-Math-72B-Instruct 模型合成更多高质量的数学预训练数据。
-2）通过多轮召回从网络资源、书籍和代码中获取更多高质量的数学数据，尤其是中文数学数据。
-3）利用 Qwen2.5 系列基础模型进行参数初始化，它们相比Qwen2有更强大的语言理解、代码生成和文本推理能力。
-最终，我们为 Qwen2.5-Math-1.5B/7B/72B 构建了名为 Qwen Math Corpus v2 的预训练数据集，并保持上下文长度为4K。与用于 Qwen2-Math 预训练的 Qwen Math Corpus v1 相比，Qwen Math Corpus v2 的总 token 数量从 700B 增加到超过 1T。</description>
     </item>
     
     <item>

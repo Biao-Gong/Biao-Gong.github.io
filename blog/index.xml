@@ -157,16 +157,6 @@ Background The Mixture-of-Experts (MoEs) architecture has become a popular model
     </item>
     
     <item>
-      <title>Towards Effective Process Supervision in Mathematical Reasoning</title>
-      <link>https://Biao-Gong.github.io/blog/qwen2.5-math-prm/</link>
-      <pubDate>Tue, 14 Jan 2025 00:00:03 +0800</pubDate>
-      
-      <guid>https://Biao-Gong.github.io/blog/qwen2.5-math-prm/</guid>
-      <description>GITHUB HUGGING FACE MODELSCOPE DISCORD
-Introduction In recent years, Large Language Models (LLMs) have made remarkable advances in mathematical reasoning, yet they can make mistakes, such as miscalculations or logical errors, leading to wrong conclusions. Moreover, even when achieving correct final answers, these powerful models can still regularly make up plausible reasoning steps, where the final answers build upon flawed calculations or derivations, which undermine the reliability and trustworthiness of LLMs&amp;rsquo; reasoning processes.</description>
-    </item>
-    
-    <item>
       <title>QVQ: To See the World with Wisdom</title>
       <link>https://Biao-Gong.github.io/blog/qvq-72b-preview/</link>
       <pubDate>Wed, 25 Dec 2024 00:00:03 +0800</pubDate>
@@ -237,16 +227,6 @@ Introduction In this blog, we delve into the details of our latest Qwen2.5 serie
       <guid>https://Biao-Gong.github.io/blog/qwen2.5-coder/</guid>
       <description>GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD
 Introduction In early April, we introduced CodeQwen1.5, which garnered significant attention from the community. Since then, we have been working to enhance the coding model. Today, we are excited to announce the release of the next generation of open-source coding models, Qwen2.5-Coder, and officially rename CodeQwen to Qwen-Coder. We think &amp;ldquo;Coder&amp;rdquo; is more human-like and agile, reflecting our vision of it becoming a true coding partner in the future.</description>
-    </item>
-    
-    <item>
-      <title>Qwen2.5-Math: The world&#39;s leading open-sourced mathematical LLMs</title>
-      <link>https://Biao-Gong.github.io/blog/qwen2.5-math/</link>
-      <pubDate>Thu, 19 Sep 2024 00:00:01 +0800</pubDate>
-      
-      <guid>https://Biao-Gong.github.io/blog/qwen2.5-math/</guid>
-      <description>GITHUB HUGGING FACE MODELSCOPE DISCORD
-🚨 Qwen2.5-Math mainly supports solving English and Chinese math problems through CoT and TIR. We do not recommend using this series of models for other tasks. Introduction A month ago, we released the first series of mathematical LLMs - Qwen2-Math - of our Qwen family. Today, we have upgraded it and open-sourced Qwen2.5-Math series, including base models Qwen2.5-Math-1.5B/7B/72B, instruction-tuned models Qwen2.5-Math-1.5B/7B/72B-Instruct, and mathematical reward model Qwen2.</description>
     </item>
     
     <item>
