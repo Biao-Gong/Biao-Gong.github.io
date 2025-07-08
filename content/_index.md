@@ -6,10 +6,8 @@ title_svg: '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x
 header:
     # background: "linear-gradient(to left, #0c3483 10%, #a2b6df 100%, #5bc0de 100%, #a2b6df 100%);"
     # background: "linear-gradient(to left, #0a4d8c, #3f8ab9, #5bc0de, #a2dfff);"
-    # background_image: "/image/outpainting-home-right-optimized.jpg"
-    # background_image: "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/background.png"
-    # background_image: "https://cdn.jsdelivr.net/gh/qwenlm/qwenlm.github.io@master/static/img/background.webp"
-    background_image: "/img/background3_black-min.png"
+    # background_image: "https://cdn.jsdelivr.net/gh/biao-gong/biao-gong.github.io@master/static/img/background3_black-min.png"
+    background_image: "https://cdn.jsdelivr.net/gh/biao-gong/biao-gong.github.io@master/static/img/background3_black.webp"
     # background_image: "/img/background3_black.webp"
     gradient: true
     blur: false
