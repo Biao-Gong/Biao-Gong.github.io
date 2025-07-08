@@ -12,52 +12,69 @@ header:
 
 # Selected Publications
 
-- Qwen Team. (2024). _Qwen2 Techinical Report._ **arXiv**.
 
-- Qwen Team. (2023). _Qwen Technical Report._ **arXiv**.
 
-- Bai, J., Bai S., Yang, S., Wang, S., Tan, S., Wang, P., Lin, J., Zhou, C. & Zhou., J. (2023). _Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond._ **arXiv**.
+- Inclusion AI, Ant Group. Ming-omni: A unified multimodal model for
+perception and generation. **Technical Report**, 2025.
 
-- Wang, P., Yang, A., Men, R., Lin, J., Bai, S., Li, Z., Ma, J., Zhou, C., Zhou, J., & Yang, H. (2022). _Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework._ **ICML**.
+- Inclusion AI, Ant Group. Ming-lite-uni: Advancements in unified architecture for natural multimodal
+interaction. **Technical Report**, 2025.
 
-- Bai, J., Men, R., Yang, H., Ren, X., Dang, K.E., Zhang, Y., Zhou, X., Wang, P., Tan, S., Yang, A., Cui, Z., Han, Y., Bai, S., Ge, W., Ma, J., Lin, J., Zhou, J., & Zhou, C. (2022). _OFASys: A Multi-Modal Multi-Task Learning System for Building Generalist Models._ arXiv, abs/2212.04408.
+---
 
-- Lin, J., Men, R., Yang, A., Zhou, C., Zhang, Y., Wang, P., Zhou, J., Tang, J., & Yang, H. (2021). _M6: Multi-Modality-to-Multi-Modality Multitask Mega-transformer for Unified Pretraining._ **KDD**.
+- Biao Gong, Shuai Tan, Yutong Feng, Xiaoying Xie, Yuyuan Li, Chaochao Chen, Kecheng Zheng, Yujun
+Shen, and Deli Zhao. Uknow: A unified knowledge protocol with multimodal knowledge graph datasets
+for reasoning and vision-language pre-training. **NeurIPS**, 2024.
 
-- Yang, A., Pan, J., Lin, J., Men, R., Zhang, Y., Zhou, J., & Zhou, C. (2022). _Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese._ arXiv, abs/2211.01335.
+- Ziyuan Huang, Kaixiang Ji, Biao Gong, Zhiwu Qing, Qinglong Zhang, Kecheng Zheng, Jian Wang,
+Jingdong Chen, and Ming Yang. Accelerating pre-training of multimodal llms via chain-of-sight. **NeurIPS**, 2024.
 
-- Ma, J., Bai, S., & Zhou, C. (2022). _Pretrained Diffusion Models for Unified Human Motion Synthesis._ arXiv, abs/2212.02837.
+- Xin Guo, Jiangwei Lao, Bo Dang, Yingying Zhang, Lei Yu, Lixiang Ru, Liheng Zhong, Ziyuan Huang, Kang
+Wu, Dingxiang Hu, et al. Skysense: A multi-modal remote sensing foundation model towards universal
+interpretation for earth observation imagery. **CVPR**, 2024.
 
-- Yang, H., Lin, J., Yang, A., Wang, P., Zhou, C., & Yang, H. (2022). _Prompt Tuning for Generative Multimodal Pretrained Models._ arXiv, abs/2208.02532.
+- Shuai Tan*, Biao Gong*, Yutong Feng, Kecheng Zheng, Dandan Zheng, Shuwei Shi, Yujun Shen, Jingdong
+Chen, and Ming Yang. Mimir: Improving video diffusion models for precise text understanding. **CVPR**, 2025.
 
-- Zhou, X., Wang, J., Cui, Z., Zhang, S., Yan, Z., Zhou, J., & Zhou, C. (2022). _MMSpeech: Multi-modal Multi-task Encoder-Decoder Pre-training for Speech Recognition._ arXiv, abs/2212.00500.
+- Yun-Hao Cao, Kaixiang Ji, Ziyuan Huang, Chuanyang Zheng, Jiajia Liu, Jian Wang, Jingdong Chen, and
+Ming Yang. Towards better vision-inspired vision-language models. **CVPR**, 2024.
 
-- Huang, Y., Lin, J., Zhou, C., Yang, H., & Huang, L. (2022). _Modality Competition: What Makes Joint Training of Multi-modal Network Fail in Deep Learning? (Provably)._ **ICML**.
+- Youming Deng, Yansheng Li, Yongjun Zhang, Xiang Xiang, Jian Wang, Jingdong Chen, and Jiayi Ma.
+Hierarchical memory learning for fine-grained scene graph generation. **ECCV**, 2022.
 
-- Bai, S., Zhou, H., Li, Z., Zhou, C., & Yang, H. (2022). _Single Stage Virtual Try-on via Deformable Attention Flows_. **ECCV**.
+- Wen Li, Muyuan Fang, Cheng Zou, Biao Gong, Ruobing Zheng, Meng Wang, Jingdong Chen, and Ming
+Yang. Styletokenizer: Defining image style by a single instance for controlling diffusion models. **ECCV**, 2024.
 
-- Cui, Z., Ma, J., Zhou, C., Zhou, J., Yang, H. (2022). _M6-Rec: Generative Pretrained Language Models are Open-Ended Recommender Systems_. arXiv, abs/2205.08084.
+- Chaochao Chen, Jiaming Zhang, Yizhao Zhang, Li Zhang, Lingjuan Lyu, Yuyuan Li, Biao Gong, and
+Chenggang Yan. Cure4rec: A benchmark for recommendation unlearning with deeper influence. **NeurIPS**, 2024
 
-- Zhang, Z., Ma, J., Zhou, C., Men, R., Li, Z., Ding, M., Tang, J., Zhou, J., & Yang, H. (2021). _UFC-BERT: Unifying Multi-Modal Controls for Conditional Image Synthesis._ **NeurIPS**.
+- Canjie Luo, Lianwen Jin, and Jingdong Chen. Siman: exploring self-supervised representation learning of
+scene text via similarity-aware normalization. **CVPR**, 2022.
 
-- Lin, J., Yang, A., Bai, J., Zhou, C., Jiang, L., Jia, X., Wang, A., Zhang, J., Li, Y., Lin, W., Zhou, J., & Yang, H. (2021). _M6-10T: A Sharing-Delinking Paradigm for Efficient Multi-Trillion Parameter Pretraining._ arXiv, abs/2110.03888.
+- Wen Wang, Qiuyu Wang, Kecheng Zheng, Hao Ouyang, Zhekai Chen, Biao Gong, Hao Chen, Yujun Shen,
+and Chunhua Shen. Framer: Interactive frame interpolation. **ICLR**, 2025.
 
-- Yang, A., Lin, J., Men, R., Zhou, C., Jiang, L., Jia, X., Wang, A., Zhang, J., Wang, J., Li, Y., Zhang, D., Lin, W., Lin, Q., Zhou, J., & Yang, H. (2021). _M6-T: Exploring sparse expert models and beyond._ arXiv, abs/2105.15082.
+- Weixiang Hong, Jiangwei Lao, Wang Ren, Jian Wang, Jingdong Chen, and Wei Chu. Training object
+detectors from scratch: An empirical study in the era of vision transformer. **CVPR**, 2022.
 
-- Ding, M., Yang, Z., Hong, W., Zheng, W., Zhou, C., Yin, D., Lin, J., Zou, X., Shao, Z., Yang, H., & Tang, J. (2021). _CogView: Mastering Text-to-Image Generation via Transformers_. **NeurIPS**.
+- Shuwei Shi, Biao Gong, Xi Chen, Dandan Zheng, Shuai Tan, Zizheng Yang, Yuyuan Li, Jingwen He,
+Kecheng Zheng, Jingdong Chen, et al. Motionstone: Decoupled motion intensity modulation with diffusion
+transformer for image-to-video generation. **CVPR**, 2025.
 
-- Ren, S., Lin, J., Zhao, G., Men, R., Yang, A., Zhou, J., Sun, X., & Yang, H. (2021). _Learning Relation Alignment for Calibrated Cross-modal Retrieval._ **ACL-IJCNLP**.
+- Jiangwei Lao, Weixiang Hong, Xin Guo, Yingying Zhang, Jian Wang, Jingdong Chen, and Wei Chu.
+Simultaneously short-and long-term temporal modeling for semi-supervised video semantic segmentation. **CVPR**, 2023.
 
-- Wang, P., Lin, J., Yang, A., Zhou, C., Zhang, Y., Zhou, J., & Yang, H. (2021). _Sketch and Refine: Towards Faithful and Informative Table-to-Text Generation._ **Findings of ACL-IJCNLP**.
+- Shuwei Shi, Wenbo Li, Yuechen Zhang, Jingwen He, Biao Gong, and Yinqiang Zheng. Resmaster:
+Mastering high-resolution image generation via structural and fine-grained guidance. In The 39th Annual
+**AAAI**, 2025.
 
-- Lin, J., Yang, A., Zhang, Y., Liu, J., Zhou, J., & Yang, H. (2020). _InterBERT: Vision-and-Language Interaction for Multi-modal Pretraining._ arXiv, abs/2003.13198.
+- Yingying Zhang, Xin Guo, Jiangwei Lao, Lei Yu, Lixiang Ru, Jian Wang, Guo Ye, Huimei He, Jingdong
+Chen, and Ming Yang. Poa: Pre-training once for models of all sizes. **ECCV**, 2024.
 
-- Zhang, Z., Zhou, C., Ma, J., Lin, Z., Zhou, J., Yang, H., & Zhao, Z. (2021). _Learning to Rehearse in Long Sequence Memorization._ **ICML**.
+- Shuai Tan, Biao Gong, Xiang Wang, Shiwei Zhang, Dandan Zheng, Ruobing Zheng, Kecheng Zheng,
+Jingdong Chen, and Ming Yang. Animate-x: Universal character image animation with enhanced motion
+representation. **ICLR**, 2025.
 
-- Zhou, C., Ma, J., Zhang, J., Zhou, J., & Yang, H. (2021). _Contrastive learning for debiased candidate generation in large-scale recommender systems._ **KDD**.
-
-- Ma, J., Zhou, C., Cui, P., Yang, H., & Zhu, W. (2019). _Learning Disentangled Representations for Recommendation._  **NeurIPS**.
-
-- Chen, Q., Lin, J., Zhang, Y., Ding, M., Cen, Y., Yang, H., & Tang, J. (2019). _Towards Knowledge-Based Recommender Dialog System._ **EMNLP-IJCNLP**.
-
-- Chen, Q., Lin, J., Zhang, Y., Yang, H., Zhou, J., & Tang, J. (2019). _Towards Knowledge-Based Personalized Product Description Generation in E-commerce._ **KDD**.
+- Yujie Wei, Shiwei Zhang, Hangjie Yuan, Biao Gong, Longxiang Tang, Xiang Wang, Haonan Qiu, Hengjia
+Li, Shuai Tan, Yingya Zhang, et al. Dreamrelation: Relation-centric video customization. **ICCV**,
+2025.

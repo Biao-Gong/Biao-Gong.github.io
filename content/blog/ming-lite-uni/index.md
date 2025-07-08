@@ -82,7 +82,7 @@ Ming-Lite-Uni's unified architecture overcomes fundamental limitations of conven
 ## Empowering Multimodal Interaction with Ming-Lite-Uni
 **Ming-Lite-Uni** acts as a unified model for multimodal understanding, extending beyond traditional NLP tasks and multimodal comprehension to enable interactive multimodal generation. This includes capabilities such as image generation, image editing, and style transfer.
 
-![Ming_unify_usecases](figures/Ming_unify_usecases.png)
+<!-- ![Ming_unify_usecases](figures/Ming_unify_usecases.png) -->
 
 
 ## Model Structure
