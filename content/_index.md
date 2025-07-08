@@ -9,9 +9,8 @@ header:
     # background_image: "/image/outpainting-home-right-optimized.jpg"
     # background_image: "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/background.png"
     # background_image: "https://cdn.jsdelivr.net/gh/qwenlm/qwenlm.github.io@master/static/img/background.webp"
-    # background_image: "/img/background3_gray.png"
+    background_image: "/img/background3_black-min.png"
     # background_image: "/img/background3_black.webp"
-    background_image: "/img/background3_black.png"
     gradient: true
     blur: false
 description: This organization contains the series of open-source projects from Ant Group with dedicated efforts to work towards Artificial General Intelligence (AGI).

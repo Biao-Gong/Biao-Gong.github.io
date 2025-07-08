@@ -7,30 +7,22 @@ disable_share: true
 header:
     background: "linear-gradient(to top, #30cfd0 0%, #330867 100%);"
 ---
-# Qwen Team
+## Hi there 👋
 
-The Qwen team aims at chasing artificial general intelligence and now focuses on building generalist models, including large language models and large multimodal models. We embrace opensource and previously we have released the Qwen model series, including the language models (Qwen), expert models (Qwen-Coder and Qwen-Math), and multimodal models (Qwen-VL and Qwen-Audio). Additionally, we have built web service and APP for users to benefit from the assistance of Qwen for your daily work and life. We are a group of people with diverse talents and interests. Feel free to chat with us and welcome to join us!
+![banner](/img/banner.png)
 
-## Links
+Welcome to the official Github organization homepage for inclusionAI.
 
-In the following, we provide important links for you to refer to our opensource resources.
+This organization contains the series of open-source projects from Ant Group with dedicated efforts to work towards Artificial General Intelligence (AGI).
 
+In here you can find Large Language Models (LLM), Reinforcement Learning (RL) or other systems related to model training and inference, and other AGI-related frameworks or applications.
 
-### Resources
+### Get Involved
 
-{{< button href="https://github.com/QwenLM/Qwen" label="GITHUB" external=true >}}
-{{< button href="https://modelscope.com/organization/qwen" label="MODELSCOPE" external=true >}}
-{{< button href="https://huggingface.co/Qwen" label="HUGGING FACE" external=true >}}
-{{< button href="https://www.kaggle.com/models/qwen-lm" label="KAGGLE" external=true >}}
+Our work is guided by the principles of fairness, transparency, and collaboration, and we are dedicated to creating models that reflect the diversity of the world we live in.
+Whether you're a researcher, developer, or simply someone passionate about AI, we invite you to join us in our mission to create AI that benefits everyone.
 
-### Social Media
+- **Explore Our Models**: Check out our latest models and datasets on the inclusionAI Hub.
+- **Contribute**: Interested in contributing? Visit our [GitHub](https://github.com/inclusionAI) repository to get started.
+- **Join the Conversation**: Connect with us on [ X ](https://x.com/ant_oss) and [Discord](https://discord.gg/2X4zBSz9c6) to stay updated on our latest projects and initiatives.
 
-{{< button href="https://x.com/Alibaba_Qwen" label="X" external=true >}}
-{{< button href="https://www.linkedin.com/company/qwen/" label="LINKEDIN" external=true >}}
-{{< button href="https://discord.com/invite/CV4E9rpNSD" label="DISCORD" external=true >}}
-
-### API
-
-{{< button href="https://www.alibabacloud.com/en/product/modelstudio" label="ALIBABA CLOUD" external=true >}}
-
-{{< button href="https://www.aliyun.com/product/bailian" label="ALIYUN" external=true >}}
