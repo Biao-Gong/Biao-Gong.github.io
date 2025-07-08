@@ -1,1 +1,1 @@
-# Qwen's Blog
+# Blog
