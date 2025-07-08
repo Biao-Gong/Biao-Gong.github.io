@@ -76,5 +76,4 @@ Jingdong Chen, and Ming Yang. Animate-x: Universal character image animation wit
 representation. **ICLR**, 2025.
 
 - Yujie Wei, Shiwei Zhang, Hangjie Yuan, Biao Gong, Longxiang Tang, Xiang Wang, Haonan Qiu, Hengjia
-Li, Shuai Tan, Yingya Zhang, et al. Dreamrelation: Relation-centric video customization. **ICCV**,
-2025.
+Li, Shuai Tan, Yingya Zhang, et al. Dreamrelation: Relation-centric video customization. **ICCV**, 2025.
