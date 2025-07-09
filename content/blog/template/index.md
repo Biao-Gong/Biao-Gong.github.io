@@ -140,7 +140,7 @@ Qwen VLo can reinterpret and recreate based on its understanding, allowing for g
 
 The evolution of multimodal large models is continually pushing the boundaries of what we believe technology can achieve. From the initial QwenVL to the latest Qwen2.5 VL, we have made progress in enhancing the model's ability to understand image content. Today, we are excited to introduce a new model, Qwen VLo, a unified multimodal understanding and generation model. This newly upgraded model not only "understands" the world but also generates high-quality recreations based on that understanding, truly bridging the gap between perception and creation. Note that this is a preview version and you can access it through Qwen Chat. You can directly send a prompt like "Generate a picture of a cute cat" to generate an image or upload an image of a cat and ask "Add a cap on the cat's head" to modify an image. The image generation process is shown below.
 
-{{<video src="https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen-VLo/vlo.mov" muted="true" width="100%" loop="true" autoplay="true">}}
+{{<video src="https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen-VLo/vlo.mov" muted="true" width="100%" loop="true" autoplay="false">}}
 
 If need controls:
 
