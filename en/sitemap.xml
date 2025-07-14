@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://Biao-Gong.github.io/blog/template/</loc>
-    <lastmod>2025-07-07T00:00:04+08:00</lastmod>
+    <lastmod>2025-07-14T00:00:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +13,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://Biao-Gong.github.io/blog/template/"
+                />
+  </url><url>
+    <loc>https://Biao-Gong.github.io/blog/abench/</loc>
+    <lastmod>2025-07-08T00:00:03+08:00</lastmod>
+  </url><url>
+    <loc>https://Biao-Gong.github.io/blog/aworld/</loc>
+    <lastmod>2025-07-07T00:00:03+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://Biao-Gong.github.io/zh/blog/aworld/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://Biao-Gong.github.io/blog/aworld/"
                 />
   </url><url>
     <loc>https://Biao-Gong.github.io/blog/ming-omni/</loc>
@@ -28,6 +44,9 @@
                 href="https://Biao-Gong.github.io/blog/ming-omni/"
                 />
   </url><url>
+    <loc>https://Biao-Gong.github.io/blog/ling/</loc>
+    <lastmod>2025-05-08T00:00:03+08:00</lastmod>
+  </url><url>
     <loc>https://Biao-Gong.github.io/blog/ming-lite-uni/</loc>
     <lastmod>2025-05-07T00:00:03+08:00</lastmod>
     <xhtml:link
@@ -42,7 +61,7 @@
                 />
   </url><url>
     <loc>https://Biao-Gong.github.io/blog/ming-lite-omni-preview/</loc>
-    <lastmod>2025-05-06T00:00:03+08:00</lastmod>
+    <lastmod>2025-05-05T00:00:03+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -54,8 +73,26 @@
                 href="https://Biao-Gong.github.io/blog/ming-lite-omni-preview/"
                 />
   </url><url>
+    <loc>https://Biao-Gong.github.io/blog/agenticlearning/</loc>
+    <lastmod>2025-04-01T00:00:03+08:00</lastmod>
+  </url><url>
+    <loc>https://Biao-Gong.github.io/blog/areal/</loc>
+    <lastmod>2025-04-01T00:00:03+08:00</lastmod>
+  </url><url>
+    <loc>https://Biao-Gong.github.io/blog/gorilla/</loc>
+    <lastmod>2025-04-01T00:00:03+08:00</lastmod>
+  </url><url>
+    <loc>https://Biao-Gong.github.io/blog/m2-reasoning/</loc>
+    <lastmod>2025-04-01T00:00:03+08:00</lastmod>
+  </url><url>
+    <loc>https://Biao-Gong.github.io/blog/promptcot/</loc>
+    <lastmod>2025-04-01T00:00:03+08:00</lastmod>
+  </url><url>
+    <loc>https://Biao-Gong.github.io/blog/ring/</loc>
+    <lastmod>2025-04-01T00:00:03+08:00</lastmod>
+  </url><url>
     <loc>https://Biao-Gong.github.io/blog/</loc>
-    <lastmod>2025-07-07T00:00:04+08:00</lastmod>
+    <lastmod>2025-07-14T00:00:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -68,7 +105,7 @@
                 />
   </url><url>
     <loc>https://Biao-Gong.github.io/</loc>
-    <lastmod>2025-07-07T00:00:04+08:00</lastmod>
+    <lastmod>2025-07-14T00:00:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
