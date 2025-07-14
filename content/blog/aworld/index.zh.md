@@ -78,19 +78,19 @@ AWorld（Agent World）是一个多智能体 playground，支持智能体协作�
 
 | 类别 | 运行时 | 指标 | 关键信息 |
 |-----|----------------|-------------|--------------|
-| 工具使用 | 函数调用运行时即将发布 | 在 BFCL 基准测试中达到竞争性 SOTA 水平 <br> ![智能体框架](readme_assets/funReason_BFCL.png) | [![数据集](https://img.shields.io/badge/Dataset-Coming%20Soon-007ACC?style=for-the-badge&logo=dataset&logoColor=white)]() <br> [![模型](https://img.shields.io/badge/Model-Hugging%20Face-FF6B6B?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/Bingguang/FunReason) <br> [![论文](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.20192) <br> [![博客](https://img.shields.io/badge/Blog-Coming%20Soon-FF5722?style=for-the-badge&logo=blogger&logoColor=white)]() <br> [![代码](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BingguangHao/FunReason)|
-| 深度搜索 | 搜索运行时即将发布 | 在 HotpotQA 基准测试中达到 SOTA 水平 <br> ![Agent Framework](readme_assets/HotpotQA_chart.png) | [![数据集](https://img.shields.io/badge/Dataset-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inclusionAI/AgenticLearning) <br> [![模型](https://img.shields.io/badge/Model-Hugging%20Face-FF6B6B?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/collections/endertzw/rag-r1-68481d7694b3fca8b809aa29) <br> [![论文](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.02962) <br> [![代码](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inclusionAI/AgenticLearning)|
+| 工具使用 | 函数调用运行时即将发布 | 在 BFCL 基准测试中达到竞争性 SOTA 水平 <br> ![智能体框架](https://github.com/inclusionAI/AWorld/raw/main/readme_assets/funReason_BFCL.png) | [![数据集](https://img.shields.io/badge/Dataset-Coming%20Soon-007ACC?style=for-the-badge&logo=dataset&logoColor=white)]() <br> [![模型](https://img.shields.io/badge/Model-Hugging%20Face-FF6B6B?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/Bingguang/FunReason) <br> [![论文](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.20192) <br> [![博客](https://img.shields.io/badge/Blog-Coming%20Soon-FF5722?style=for-the-badge&logo=blogger&logoColor=white)]() <br> [![代码](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BingguangHao/FunReason)|
+| 深度搜索 | 搜索运行时即将发布 | 在 HotpotQA 基准测试中达到 SOTA 水平 <br> ![Agent Framework](https://github.com/inclusionAI/AWorld/raw/main/readme_assets/HotpotQA_chart.png) | [![数据集](https://img.shields.io/badge/Dataset-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inclusionAI/AgenticLearning) <br> [![模型](https://img.shields.io/badge/Model-Hugging%20Face-FF6B6B?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/collections/endertzw/rag-r1-68481d7694b3fca8b809aa29) <br> [![论文](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.02962) <br> [![代码](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inclusionAI/AgenticLearning)|
 
 
 ### GAIA 智能体运行时演示
-![GAIA 智能体运行时演示](readme_assets/gaia_demo.gif)
+![GAIA 智能体运行时演示](https://github.com/inclusionAI/AWorld/raw/main/readme_assets/gaia_demo.gif)
 
 这里我们首先介绍 **GAIA 运行时**，它可以在您的本地计算机上构建。它可以用于：
 
 - **产品原型验证**
 - **自我改进训练**（详情请参见[训练流程](#后向流程)）
 
-按照 [`./examples/gaia/README.md`](./examples/gaia/README.md) 中的说明来初始化 GAIA 智能体运行时并运行上面显示的演示。
+按照 [`./examples/gaia/README.md`](https://github.com/inclusionAI/AWorld/blob/main/examples/gaia/README.md) 中的说明来初始化 GAIA 智能体运行时并运行上面显示的演示。
 
 
 > **想构建自己的多智能体系统？请参考下方详细教程！ ⬇️⬇️⬇️** 
@@ -166,17 +166,17 @@ AWorld 旨在实现两个核心目标：（1）高效的前向流程；（2）�
 ### 前向流程
 > 运行时示意图，展示 Agent1 接收用户请求时的消息流转。
 
-![](readme_assets/runtime.jpg)
+![](https://github.com/inclusionAI/AWorld/raw/main/readme_assets/runtime.jpg)
 
 ### 后向流程
 > 训练时，AWorld 分布式环境下的动作-状态 rollout 示意。
 
-![](readme_assets/agent_training2.jpg)
+![](https://github.com/inclusionAI/AWorld/blob/main/readme_assets/agent_training2.jpg)
 
 
 
 ## 演示
-> 运行预定义智能体（如 [演示代码](examples/browsers/run.py)）。下方为多种智能体配置和环境下的演示视频。
+> 运行预定义智能体（如 [演示代码](https://github.com/inclusionAI/AWorld/blob/main/examples/browsers/run.py)）。下方为多种智能体配置和环境下的演示视频。
 
 <table>
   <tr>

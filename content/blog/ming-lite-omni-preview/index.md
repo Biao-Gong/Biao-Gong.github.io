@@ -38,7 +38,7 @@ show_word_count: true
 ---
 
 
-<p align="left">
+
  {{< button href="https://github.com/inclusionAI/Ming" label="GITHUB" external=true >}} 🤗 <a href="https://huggingface.co/inclusionAI">Hugging Face</a> | 🤖 <a href="https://modelscope.cn/organization/inclusionAI">ModelScope</a>
 
 

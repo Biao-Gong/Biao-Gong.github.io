@@ -1,5 +1,5 @@
 ---
-title: "AgenticLearning"
+title: "Agentic Learning"
 date: 2025-04-01T00:00:03+08:00
 weight: 1
 # aliases: ["/first"]
@@ -37,7 +37,6 @@ show_word_count: true
 #   blur: false
 ---
 
-# AgenticLearning
 
 ## Introduction
 
@@ -46,7 +45,6 @@ For complex problems, it is often necessary for an agent to have multi-turn inte
 
 We introduce **AgenticLearning**, an open-source agent training paradigm designed to empower researchers to train and evaluate autonomous agents effectively. AgenticLearning offers a framework for multi-turn interactions with the environment, enabling models to learn how to interact with the environment and make decisions based on its feedback, thereby enhancing the models' ability to leverage the environment to solve complex problems.
 
-![AgenticLearning Framework](assets/framework.png "AgenticLearning Framework")
 
 | Advancements  |  Models |                                         Tools                                         |                   Environment                   |                                                                    Training Framework                                                                    |
 |:---------------------------------------------------------------------------------------:|:-------------------------:|:-------------------------------------------------------------------------------------:|:-----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -63,16 +61,16 @@ We introduce **AgenticLearning**, an open-source agent training paradigm designe
 
 ### Deepsearch
 
-#### [RAG-R1](RAG-R1/README.md)
+#### [RAG-R1](https://github.com/inclusionAI/AgenticLearning/blob/main/RAG-R1/README.md)
 
 - Tools: Search Engines (offline or [online](https://github.com/qingw-dev/aworld-mcp-servers))
 - LLM: Qwen2.5-7b-instruct
 
-![RAG-R1-framework](RAG-R1/assets/RAG-R1.png)
+![RAG-R1-framework](https://github.com/inclusionAI/AgenticLearning/raw/main/RAG-R1/assets/RAG-R1.png)
 
 <h5 align="center">Overall framework of RAG-R1.</h5>
 
-![RAG-R1-result](RAG-R1/assets/RAG-R1-result.png)
+![RAG-R1-result](https://github.com/inclusionAI/AgenticLearning/raw/main/RAG-R1/assets/RAG-R1-result.png)
 
 <h5 align="left">Performance comparisons on QA benchmarks under the EM metric. The best and second
 best results are bold and underlined, respectively.</h5>
@@ -86,13 +84,13 @@ best results are bold and underlined, respectively.</h5>
 
 FunReason is a framework designed to enhance LLMs' function calling capabilities, achieving GPT-4o-comparable performance on BFCL, surpassing RL-based methods, mitigating catastrophic forgetting on HumanEval and MBPP, and using a data refinement strategy where natural CoT data outperforms artificial ones.
 
-![FunReason-Performance](FunctionCall/assets/Fun_pipline.png)
+![FunReason-Performance](https://github.com/inclusionAI/AgenticLearning/raw/main/FunctionCall/assets/Fun_pipline.png)
 
 <h5 align="center">Data refinement pipline of FunReason.</h5>
 
 **Overview of FunReason's data refinement pipeline.** The pipeline consists of five stages: Function Call Classification, Query and Tool Identification, CoT Identification, Function and Parameter Identification, and Format Identification. Each stage ensures specific aspects of data quality, with failing examples either being discarded or regenerated.
 
-![FunReason-Performance](FunctionCall/assets/Fun_per.png)
+![FunReason-Performance](https://github.com/inclusionAI/AgenticLearning/raw/main/FunctionCall/assets/Fun_per.png)
 
 <h5 align="center">Performance of FunReason.</h5>
 

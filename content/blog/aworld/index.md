@@ -80,18 +80,18 @@ By constructing diverse runtime environments (with tools, agents, or models in t
 
 | Category | Runtime | Performance | Key Information |
 |-----|----------------|-------------|--------------|
-| Tool Use | Function call runtime to be released | Competitive on BFCL benchmark  <br> ![Agent Framework](readme_assets/funReason_BFCL.png) | [![Dataset](https://img.shields.io/badge/Dataset-Coming%20Soon-007ACC?style=for-the-badge&logo=dataset&logoColor=white)]() <br> [![Model](https://img.shields.io/badge/Model-Hugging%20Face-FF6B6B?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/Bingguang/FunReason) <br> [![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.20192) <br> [![Blog](https://img.shields.io/badge/Blog-Coming%20Soon-FF5722?style=for-the-badge&logo=blogger&logoColor=white)]() <br> [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BingguangHao/FunReason)|
-| Deep Search | Search runtime to be released | SOTA on HotpotQA benchmark  <br> ![Agent Framework](readme_assets/HotpotQA_chart.png) | [![Dataset](https://img.shields.io/badge/Dataset-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inclusionAI/AgenticLearning) <br> [![Model](https://img.shields.io/badge/Model-Hugging%20Face-FF6B6B?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/collections/endertzw/rag-r1-68481d7694b3fca8b809aa29) <br> [![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.02962) <br> [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inclusionAI/AgenticLearning)|
+| Tool Use | Function call runtime to be released | Competitive on BFCL benchmark  <br> ![Agent Framework](https://github.com/inclusionAI/AWorld/raw/main/readme_assets/funReason_BFCL.png) | [![Dataset](https://img.shields.io/badge/Dataset-Coming%20Soon-007ACC?style=for-the-badge&logo=dataset&logoColor=white)]() <br> [![Model](https://img.shields.io/badge/Model-Hugging%20Face-FF6B6B?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/Bingguang/FunReason) <br> [![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.20192) <br> [![Blog](https://img.shields.io/badge/Blog-Coming%20Soon-FF5722?style=for-the-badge&logo=blogger&logoColor=white)]() <br> [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BingguangHao/FunReason)|
+| Deep Search | Search runtime to be released | SOTA on HotpotQA benchmark  <br> ![Agent Framework](https://github.com/inclusionAI/AWorld/raw/main/readme_assets/HotpotQA_chart.png) | [![Dataset](https://img.shields.io/badge/Dataset-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inclusionAI/AgenticLearning) <br> [![Model](https://img.shields.io/badge/Model-Hugging%20Face-FF6B6B?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/collections/endertzw/rag-r1-68481d7694b3fca8b809aa29) <br> [![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.02962) <br> [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inclusionAI/AgenticLearning)|
 
 ### Demo of GAIA Agent-Runtime
-![GAIA Agent Runtime Demo](readme_assets/gaia_demo.gif)
+![GAIA Agent Runtime Demo](https://github.com/inclusionAI/AWorld/raw/main/readme_assets/gaia_demo.gif)
 
 Here we first introduce the **GAIA runtime**, which can be constructed on your local computer. It can be used for:
 
 - **Product prototype verification**
 - **Self-improvement training** (See [training pipeline](#backward) for details)
 
-Follow the instructions in [`./examples/gaia/README.md`](./examples/gaia/README.md) to initialize the GAIA agent runtime and run the demo shown above.
+Follow the instructions in [`./examples/gaia/README.md`](https://github.com/inclusionAI/AWorld/blob/main/examples/gaia/README.md) to initialize the GAIA agent runtime and run the demo shown above.
 
 > **Want to build your own multi-agent system? Check out the detailed tutorials below to get started! ⬇️⬇️⬇️** 
 
@@ -165,12 +165,12 @@ AWorld is designed to achieve two primary objectives: (1) provide an efficient f
 ### Forward
 > An illustration of the runtime, showing the message workflow when Agent1 receives a query from a user.
 
-![](readme_assets/runtime.jpg)
+![](https://github.com/inclusionAI/AWorld/raw/main/readme_assets/runtime.jpg)
 
 ### Backward
 > During training, an action-state rollout demonstration using AWorld's distributed environments.
 
-![](readme_assets/agent_training2.jpg)
+![](https://github.com/inclusionAI/AWorld/raw/main/readme_assets/agent_training2.jpg)
 
 <!-- > An illustration of training code that seamlessly integrates the learning framework (Swift, in this example) with AWorld as the environment.
 
@@ -182,7 +182,7 @@ AWorld is designed to achieve two primary objectives: (1) provide an efficient f
 ``` -->
 
 ## Demo
-> Running Pre-defined Agents (e.g., see [demo code](examples/browsers/run.py)). Below are demonstration videos showcasing AWorld's capabilities across various agent configurations and environments.
+> Running Pre-defined Agents (e.g., see [demo code](https://github.com/inclusionAI/AWorld/blob/main/examples/browsers/run.py)). Below are demonstration videos showcasing AWorld's capabilities across various agent configurations and environments.
 
 
 <table>

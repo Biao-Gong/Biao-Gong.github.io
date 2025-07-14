@@ -1,5 +1,5 @@
 ---
-title: "M2-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning"
+title: "M2-Reasoning: 赋予多模态大语言模型统一的通用与空间推理能力"
 date: 2025-07-11T00:00:03+08:00
 weight: 1
 math: true
@@ -14,90 +14,86 @@ show_word_count: true
 
 📖 [Technical Report](https://arxiv.org/abs/2507.08306) | 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning)｜ 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning)
 
-## Introduction
+## 介绍
 
-We introduce M2-Reasoning-7B, a model designed to excel in both general and spatial reasoning. Our approach integrates two key innovations: (1) a novel data pipeline that generates 294.2K high-quality data samples (168K for cold-start fine-tuning and 126.2K for RLVR), which feature logically coherent reasoning trajectories and have undergone comprehensive assessment; and (2) a dynamic multi-task training strategy with step-wise optimization to mitigate conflicts between data, and task-specific rewards for delivering tailored incentive signals. This combination of curated data and advanced training allows M2-Reasoning-7B to set a new state-of-the-art (SOTA) across 8 benchmarks, showcasing superior performance in both general and spatial reasoning domains.
+我们推出了 M2-Reasoning-7B，一个在通用与空间推理方面都表现卓越的模型。我们的方法融合了两项关键创新：(1) 一个全新的数据管道，生成了29.42万个高质量数据样本（其中16.8万用于冷启动微调，12.62万用于RLVR）。这些数据具有逻辑连贯的推理轨迹，并经过了全面评估。(2) 一种动态多任务训练策略，通过逐步优化来缓解数据间的冲突，并利用针对特定任务的奖励机制来提供定制化的激励信号。通过这种精心筛选的数据与先进训练方法的结合，M2-Reasoning-7B 在8个基准测试中创造了新的业界最佳水平（SOTA），在通用和空间推理领域均展现出卓越的性能。
 ![](assets/teaser.png)
 
-## 📌 Updates
+## 📌 更新
 
-- [2025.07.14] 🔥 Our [Technical Report](https://arxiv.org/abs/2507.08306) is in public on arxiv.
-- [2025.07.11] 🔥 We release M2-Reasoning on 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning) and 🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning).
+- [2025.07.14] 🔥 我们的[技术报告](https://arxiv.org/abs/2507.08306)已公开发布于 arxiv。
+- [2025.07.11] 🔥 M2-Reasoning模型开源: 🤗 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning)、🤖 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning)。
 
-## Key Features
+## 主要特性
 
-- A High-quality Data Construction Pipeline: We design and implement a multi-stage data synthesis and curation pipeline that generates vast amounts of reasoning data.
-- A Dynamic Multi-Task Training Strategy: We propose a sophisticated training strategy that effectively handles data heterogeneity. It features step-wise dynamic optimization to mitigate conflicts between different data sources and a task-specific reward formulation to provide tailored incentive signals.
-- Unified General and Spatial Reasoning Model: We propose M2-Reasoning-7B, an MLLM uniquely engineered for both abstract and spatial reasoning. Extensive evaluations on 8 distinctbenchmarks demonstrate that, by leveraging our custom data and training pipelines, M2-Reasoning establishes new state-of-the-art (SOTA) results across both general and spatial reasoning domains.
+- 高质量的数据构建流程：我们设计并实现了一个多阶段的数据合成与筛选流程，能够生成大量的推理数据。
+- 动态多任务训练策略：我们提出了一种高效的训练策略，能够有效应对数据异构性问题。该策略包括逐步动态优化，以缓解不同数据源之间的冲突，以及任务特定的奖励机制，提供定制化的激励信号。
+- 统一的通用与空间推理模型：我们提出了 M2-Reasoning-7B，这是一款专为通用推理与空间推理任务而设计的多模态大语言模型（MLLM）。在8个不同的基准测试中进行的广泛评估表明，借助我们定制的数据和训练流程，M2-Reasoning在通用推理和空间推理领域均取得了新的SOTA成果。
 
-## Evaluation
+## 评测
 
-We conduct a comprehensive evaluation of our models across two key domains: general and spatial
-reasoning. Our evaluation utilizes a diverse set of public benchmarks, grouped by the primary
-capability they measure:
-
-- General Reasoning (Mathematical & Logical): To evaluate this capability, we employ six benchmarks: MathVista, MathVision, MathVerse, DynaMath, WeMath, and LogicVista.
+我们在通用推理和空间推理对模型进行了全面评估。我们的评估使用了一组多样化的公开基准测试，这些测试根据它们主要衡量的能力进行分类：
+- 通用推理（数学与逻辑）：为了评估这一能力，我们采用了六项基准测试：MathVista、MathVision、MathVerse、DynaMath、WeMath 和 LogicVista。
 
 |Models| MathVista| MathVision| MathVerse| DynaMath| WeMath| LogicVista| Avg. (Δ)|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|***Base-Scale General Models***|
+|***基础规模通用模型***|
 |InternVL3-8B | 70.5| 30.0| 38.5| 25.7 |39.5 |44.5 |41.4|
 |InternVL3-9B | 69.0 | 29.3| 37.9 |25.1 |34.8| 49.0 |40.8|
 |Qwen2.5-VL-7B |68.1 |25.4 |41.1 |21.8 |36.2| 47.9| 40.1|
 |MUG-U-7B | 74.8 |26.1 |35.4 |17.2 |26.5 |39.8| 36.6|
 |SAIL-VL-1.6-8B | 74.2 |23.2| 33.4 |14.0 |29.6 |41.4| 36.0|
-|***Base-Scale Reasoning Models***|
+|***基础规模推理模型***|
 |WeThink-VL-7B| 71.6 |26.0| 44.2 |24.8 |**48.0** |**51.2**| 44.3 (+4.2)|
 |Taichu-VLR-7B | 72.3| 27.1 |46.7 |23.0 |44.0 |48.3 |43.6|
 |VLAA-Thinker-7B | 68.0 |26.4| **48.2** |22.4 |41.5 |48.5 |42.5 (+2.4)|
 |URSA-8B-PS-GRPO | 67.8 |**31.8** |41.5 |22.4| 38.3 |44.7 |41.1 (+8.2)|
 |Ovis2-8B |71.8 |25.9| 42.3 |20.4 |27.2 |39.4| 37.8|
-|***Our Models***|
+|***本文模型***|
 |Base Model |70.2| 25.9| 30.5| 20.2| 27.2| 37.8| 35.5|
 |M2-Reasoning-CI-7B|  71.7| 29.2| 42.1| 25.0 |42.8| 46.8 |42.9 (+7.4)|
 |M2-Reasoning-7B | **75.0** |31.5| 44.7 |**26.8** |41.8 |50.0 |**45.0 (+9.5)**|
 
-- Spatial Reasoning: We assess this skill using 2 benchmarks: CV-Bench and VSI-Bench
+- 空间推理：我们使用两项基准来评估这一能力：CV Bench和VSI Bench
     - CV-Bench:
 
     | Models | Count | Relation | Depth | Distance | Avg. |
     | :--- | :---: | :---: | :---: | :---: | :---: |
-    | ***Large-Scale Models*** | | | | | |
+    | ***大规模模型*** | | | | | |
     | GPT-4O | 65.9 | 85.7 | 87.8 | 78.2 | 78.9 |
     | Gemini-1.5-pro | 70.4 | 85.2 | 82.4 | 72.8 | 77.4 |
-    | ***Base-Scale Models*** | | | | | |
+    | ***基础规模模型*** | | | | | |
     | InternVL3-8B| **74.0** |  90.6  |  84.3  |  81.0  |  82.0  |
     | Qwen2.5-VL-7B-Instruct | 65.2 |  86.6  | 70.6 | 79.8 | 75.0 |
     | LLava-NEXT-Video-7B  | 59.3 | 77.0 | 71.3 | 54.7 | 65.2 |
-    | ***Our Models*** | | | | | |
+    | ***本文模型*** | | | | | |
     | M2-Reasoning-7B |  66.6  | **92.8** | **89.3** | **84.3** | **82.3** |
 
     - VSI-Bench:
 
     | | OC | AD| OS|RS |RDs |RDr |RP |AO |Avg. |
     | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-    | ***Large-Scale Models*** | | | | | | | | | |
+    | ***大规模模型*** | | | | | | | | | |
     | Gemini-1.5-pro  | 56.2 | 30.9 | 64.1 | 43.6 | 51.3 | 46.3 | 36.0 | 34.6 | 45.4 |
     | GPT-4O  | 46.2 | 5.3 | 43.8 | 38.2 | 37.0 | 41.3 | 31.5 | 28.5 | 34.0 |
-    | ***Base-Scale Models*** | | | | | | | | | |
+    | ***基础规模模型*** | | | | | | | | | |
     | InternVL3-8B | **68.1** | **39.0** | 48.4 | 33.6 | **48.3** | 36.4 | 27.3 | **35.4** |  42.1  |
     | Video-R1-7B | - | - | - | - | - | - | - | - | 37.1 |
     | Qwen2.5-VL-7B-Instruct| 37.7 | 20.1 | 49.7  |  37.4  | 38.5 | 40.4 |  31.4  |  32.0  | 35.9 |
     | LLava-NeXT-Video-7B|  48.5  | 14.0 |  47.8  | 24.2 |  43.5  | 42.4 |  **34.0**  | 30.6 | 35.6 |
-    | ***Our Models*** | | | | | | | | | |
+    | ***本文模型*** | | | | | | | | | |
     | M2-Reasoning-7B | 41.0 |  34.0  | **60.9** | **55.4** | 40.7 | **47.3** | 29.9 | 28.8 | **42.3** |
 
-## Model Downloads
+## 模型下载
 
-You can download the model from both [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning) and [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning).
+您可以从 [Hugging Face](https://huggingface.co/inclusionAI/M2-Reasoning) 和 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning) 两个平台下载模型。
+如果您位于中国大陆，我们建议您从 [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning) 下载模型。
 
-If you're in mainland China, we strongly recommend you to download our model from [ModelScope](https://www.modelscope.cn/models/inclusionAI/M2-Reasoning).
+## 使用样例
 
-## Example Usage
+基础环境为：`python=3.10`、`torch=2.6.0+cu124`、`transformers=4.49.0`
 
-The basic environment is `python=3.10`, `torch=2.6.0+cu124`, `transformers=4.49.0`
-
-We provide a small example on the usage of this repo.
+我们提供了一个简单的示例，展示如何使用本模型。
 
 ``` python
 import os

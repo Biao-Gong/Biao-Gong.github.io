@@ -13,7 +13,7 @@ show_word_count: true
 
 <p align="center">
 | <a href="https://arxiv.org/pdf/2505.24298"><b>Paper</b></a> | <a href="https://inclusionai.github.io/AReaL/"><b>Documentation</b></a> | <a href="https://deepwiki.com/inclusionAI/AReaL"><b>Ask DeepWiki</b></a> | <a href="https://huggingface.co/collections/inclusionAI/areal-boba-2-683f0e819ccb7bb2e1b2f2d5"><b>🤗 Models & Data</b></a> |
-<a href="./assets/wechat_qrcode.png" target="_blank"><b>WeChat Group</b></a> |
+<a href="https://github.com/inclusionAI/AReaL/blob/main/assets/wechat_qrcode.png" target="_blank"><b>WeChat Group</b></a> |
 </p>
 
 
@@ -28,11 +28,11 @@ AReaL (Ant Reasoning RL) is an open-source **fully asynchronous reinforcement le
 
 ## News
 
-**[2025/06/03] (v0.3, boba²)** We release **boba²** (double-boba) for fully asynchronous RL training, which achieves a **2.77x speedup while obtaining on-par or even better training performance** compared to synchronous systems. Moreover, asynchronous RL makes it extremely easy to set up multi-turn agentic RL training! Check out [our v0.3 overview blog](/blog/AReaL_v0_3.md) and the [research paper](https://arxiv.org/pdf/2505.24298).
+**[2025/06/03] (v0.3, boba²)** We release **boba²** (double-boba) for fully asynchronous RL training, which achieves a **2.77x speedup while obtaining on-par or even better training performance** compared to synchronous systems. Moreover, asynchronous RL makes it extremely easy to set up multi-turn agentic RL training! Check out [our v0.3 overview blog](https://github.com/inclusionAI/AReaL/blob/main/blog/AReaL_v0_3.md) and the [research paper](https://arxiv.org/pdf/2505.24298).
 
-**[2025/03/31] (v0.2, boba)** Here comes our next milestone release - boba! Please call it A-ReaL-boba! This release includes much faster training with SGLang support and SOTA 7B and 32B models on math reasoning. Check our [v0.2 technical blog](/blog/AReaL_v0_2.md).
+**[2025/03/31] (v0.2, boba)** Here comes our next milestone release - boba! Please call it A-ReaL-boba! This release includes much faster training with SGLang support and SOTA 7B and 32B models on math reasoning. Check our [v0.2 technical blog](https://github.com/inclusionAI/AReaL/blob/main/blog/AReaL_v0_2.md).
 
-**[2025/02/24] (v0.1)** Our initial release includes reproducible results for 1.5B and 7B LRMs. Check our [v0.1 technical blog](/blog/AReaL_v0_1.md).
+**[2025/02/24] (v0.1)** Our initial release includes reproducible results for 1.5B and 7B LRMs. Check our [v0.1 technical blog](https://github.com/inclusionAI/AReaL/blob/main/blog/AReaL_v0_1.md).
 
 ## Release Highlights
 
@@ -44,7 +44,7 @@ In our AReaL-boba² (A-ReaL-double-boba) release, we highlight the top 3 most im
 
 + Experimental support for **multi-turn** agentic RL training. Check our [complete example](https://inclusionai.github.io/AReaL/customization/agent.html).
 
-For the complete system design and more training details, please check [our v0.3 blog](/blog/AReaL_v0_3.md) and our [research paper](https://arxiv.org/pdf/2505.24298).
+For the complete system design and more training details, please check [our v0.3 blog](https://github.com/inclusionAI/AReaL/blob/main/blog/AReaL_v0_3.md) and our [research paper](https://arxiv.org/pdf/2505.24298).
 
 **Jump to the [quickstart section](https://github.com/inclusionAI/AReaL?tab=readme-ov-file#getting-started) if you want to quickly run an experiment and get your hands dirty!** 😈
 
@@ -52,13 +52,13 @@ For the complete system design and more training details, please check [our v0.3
 
 During the synchronous RL training process, a generation step must wait until the longest sequence completes within the batch of LLM outputs. Due to the varying output lengths for LRMs, a synchronous RL system suffers from massive GPU idle time, leading to training inefficiency. Some recent works ([DeepCoder](https://pretty-radio-b75.notion.site/DeepCoder-A-Fully-Open-Source-14B-Coder-at-O3-mini-Level-1cf81902c14680b3bee5eb349a512a51), [Intellect](https://www.primeintellect.ai/blog/intellect-2)) propose overlapping a single training step with a single generation step to accelerate training. However, the largest bottleneck remains unchanged: the samples within a batch are still from the same model version, leading to waiting and GPU idle time.
 
-![Synchronous vs One-step Overlap RL](/assets/sync_one_step_gen.png)
+![Synchronous vs One-step Overlap RL](https://github.com/inclusionAI/AReaL/raw/main/assets/sync_one_step_gen.png)
 
 *Fig.1. Left: Execution timeline of synchronous RL training. Right: Execution timeline of one-step overlap RL system.*
 
 AReaL adopts a fully asynchronous RL training framework that completely decouples generation from training. In AReaL, LLM generation runs in a streaming manner, with each rollout worker continuously producing outputs without waiting. Meanwhile, trainer workers perform parallel model updates upon receiving training batches.
 
-![Asynchronous RL Training](/assets/async_timeline.png)
+![Asynchronous RL Training](https://github.com/inclusionAI/AReaL/raw/main/assets/async_timeline.png)
 
 *Fig 2. Execution timeline of our fully asynchronous RL system.*
 
@@ -66,7 +66,7 @@ AReaL follows a system-algorithm co-design principle: on the system side, AReaL 
 
 We compare the scalability of **asynchronous RL** training based on our AReaL-boba² system with **classical synchronous RL** training (we adopt the fastest open-source system veRL, main branch on 05/07/2025) across different model sizes and different numbers of H800 GPUs. AReaL demonstrates much improved scaling capabilities with respect to training throughput. This is also partially due to AReaL decoupling training and generation, leading to much fewer GPU memory fragments.
 
-![Scaling Comparison](/assets/async_scaling_vs_verl.png)
+![Scaling Comparison](https://github.com/inclusionAI/AReaL/raw/main/assets/async_scaling_vs_verl.png)
 
 *Fig.3 The scaling trend of asynchronous RL (based on AReaL-boba2) and classical synchronous RL (based on veRL) with different model sizes. Dotted lines indicate ideal linear scaling.*
 

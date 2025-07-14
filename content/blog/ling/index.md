@@ -66,7 +66,7 @@ Note: If you are interested in previous version, please visit the past model col
 | BFCL_live | 0 | **72.15** | 67.93 | 65.35 | 69.83 | 47.14 | 49.98 |
 
 #### Context Window
-![](./figures/needle_testing.png)
+![](https://github.com/inclusionAI/Ling/blob/master/figures/needle_testing.png)
 
 Evaluation results on the ``Needle In A Haystack`` (NIAH) tests. Ling-lite-1.5 has improved long text generation capability and performs well across most context window lengths up to **128K**. 
 
