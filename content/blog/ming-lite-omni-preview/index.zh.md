@@ -1,6 +1,6 @@
 ---
 title: "Ming-Lite-Omni-Preview: MOE架构的多模态大模型"
-date: 2025-05-06T00:00:03+08:00
+date: 2025-05-05T00:00:03+08:00
 weight: 1
 # aliases: ["/first"]
 # tags: ["Research"]
