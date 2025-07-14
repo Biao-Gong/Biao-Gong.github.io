@@ -2,17 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Biao-Gong.github.io/zh/blog/template/</loc>
-    <lastmod>2025-07-14T00:00:04+08:00</lastmod>
+    <loc>https://Biao-Gong.github.io/zh/blog/ming-lite-omni-1_5/</loc>
+    <lastmod>2025-07-14T00:00:03+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Biao-Gong.github.io/blog/template/"
+                href="https://Biao-Gong.github.io/blog/ming-lite-omni-1_5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://Biao-Gong.github.io/zh/blog/template/"
+                href="https://Biao-Gong.github.io/zh/blog/ming-lite-omni-1_5/"
+                />
+  </url><url>
+    <loc>https://Biao-Gong.github.io/zh/blog/m2-reasoning/</loc>
+    <lastmod>2025-07-11T00:00:03+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://Biao-Gong.github.io/blog/m2-reasoning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://Biao-Gong.github.io/zh/blog/m2-reasoning/"
                 />
   </url><url>
     <loc>https://Biao-Gong.github.io/zh/blog/aworld/</loc>
@@ -68,7 +81,7 @@
                 />
   </url><url>
     <loc>https://Biao-Gong.github.io/zh/blog/</loc>
-    <lastmod>2025-07-14T00:00:04+08:00</lastmod>
+    <lastmod>2025-07-14T00:00:03+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
