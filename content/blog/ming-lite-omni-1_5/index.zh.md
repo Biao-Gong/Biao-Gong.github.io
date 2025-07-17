@@ -78,19 +78,15 @@ show_word_count: true
 |      | 自建体验评测集_格式合理性 | 4.727         | 4.8            |
 |      | 自建体验评测集_正确性   | 3.741         | 3.92           |
 
+<br>
 
 ## Demo展示
-
 {{< fullwidth class="example-container" >}}
 {{< example data="cases/chat.json" hide=false next=true scroll=true >}}
 {{< /fullwidth >}}
 
 ### 图像编辑
-
-<!-- {{<video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/UoqbRYQnZYEAAAAAgCAAAAgAeuUHAQFr" muted="true" width="100%" loop="true" autoplay="true">}} -->
 <video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/UoqbRYQnZYEAAAAAgCAAAAgAeuUHAQFr" controls></video>
-
-
 {{< fullwidth class="example-container" >}}
 {{< example data="cases/seg.json" hide=false next=true scroll=true >}}
 {{< /fullwidth >}}
