@@ -19,13 +19,13 @@ show_word_count: true
 
 
 <div style="text-align:center">
-  <img src="https://github.com/Biao-Gong/static/raw/refs/heads/main/0715/0.webp" alt="Image description" />
+  <img src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/0.webp" alt="Image description" />
   <p style="font-size:14px; color:gray;">性能对比图</p>
 </div>
 
 
 <div style="text-align:center">
-  <img src="https://github.com/Biao-Gong/static/raw/refs/heads/main/0715/1.webp" alt="Image description" />
+  <img src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/1.webp" alt="Image description" />
   <p style="font-size:14px; color:gray;">模型架构图</p>
 </div>
 
@@ -81,8 +81,9 @@ show_word_count: true
 
 # 开始使用 Ming-lite-omni v1.5
 Ming-lite-omni v1.5的模型和代码已开源，欢迎大家试用、反馈和交流。  
-  - Github：https://github.com/inclusionAI/Ming  
-  - Hugging Face:  https://huggingface.co/inclusionAI/Ming-Lite-Omni-1.5 
+
+  - Github：https://github.com/inclusionAI/Ming
+  - Hugging Face: https://huggingface.co/inclusionAI/Ming-Lite-Omni-1.5 
   - ModelScope: https://www.modelscope.cn/models/inclusionAI/Ming-Lite-Omni-1.5
 
 后续我们会持续优化Ming-lite-omni，持续提升在全模态的效果同时，让Ming-lite-omni更加轻量化，同时强化Ming-lite-omni的多模推理能力和生成能力。
