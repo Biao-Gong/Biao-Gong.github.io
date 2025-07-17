@@ -131,15 +131,12 @@ show_word_count: true
 
 
 
-### OCR文档理解
+{{< fullwidth class="example-container" >}}
+{{< example data="cases/ocrchat.json" hide=false next=true scroll=true >}}
+{{< /fullwidth >}}
 
-| 图片 | 问题 | Ming-lite-omni回答 | Ming-lite-omni V1.5回答 |
-| --- | --- | --- | --- |
-| ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/9.webp) | 在判断题第95题中，考生答题的手写内容是什么？若考生的手写答案为√则输出对，若考生的手写答案为×则输出错，请输出对或错 | 对 | 错 |
-| ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/10.webp) | Output the content of the CAPTCHA directly. Characters are only numbers and uppercase/lowercase letters. | 9743 | 9742 |
-| ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/11.webp) | What is the Latex tag for mathematical expression in images? | A C = C B \therefore C D / / B E | A C = C B \because C D / / B E |
-| ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/12.webp) | 从图中提取: 日期 | 日期：2019年12月03日05时08分   从图中提取: 里程   里程：23.9公里   从图中提取: 金额   金额：52.6元   从图中提取: 状态   状态：   从图中提取: 客票印务   客票印务2019年12月印900000卷   从图中提取: 号码   号码从00000001至90000000止 | 日期: 2021年03月05日 |
-| ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/13.webp) | What is the difference in value between Lamb and Corn?' You FIRST think about the reasoning process as an internal monologue and then provide the final answer. The reasoning process MUST BE enclosed within <think> </think> tags. The final answer MUST BE put in \\boxed{}.' | 0.37 | <think><br/>The value for Lamb is 103.7 and for Corn is 103.13. To find the difference, subtract the smaller value from the larger value: 103.7 - 103.13 = 0.57.<br/></think><br/>\boxed{0.57} |
+
+
 
 
 ## 开始使用 Ming-lite-omni v1.5
