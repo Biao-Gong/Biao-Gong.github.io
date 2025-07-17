@@ -79,9 +79,25 @@ show_word_count: true
 |      | 自建体验评测集_正确性   | 3.741         | 3.92           |
 
 
+# Demo展示
+
+## 图文对话
+
+## 图像编辑
+
+## 图像检测分割
+
+## 图像生成
+
+## 语音合成
+
+## OCR文档理解
+
+
+
 # 开始使用 Ming-lite-omni v1.5
 
 Ming-lite-omni v1.5的模型和代码已开源，欢迎大家试用、反馈和交流。后续我们会持续优化Ming-lite-omni，持续提升在全模态的效果同时，让Ming-lite-omni更加轻量化，同时强化Ming-lite-omni的多模推理能力和生成能力。
-  - Github：https://github.com/inclusionAI/Ming
+  - Github: https://github.com/inclusionAI/Ming
   - Hugging Face: https://huggingface.co/inclusionAI/Ming-Lite-Omni-1.5 
   - ModelScope: https://www.modelscope.cn/models/inclusionAI/Ming-Lite-Omni-1.5
