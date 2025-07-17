@@ -1,5 +1,5 @@
 ---
-title: "Ming-Lite-Omni V1.5"
+title: "Ming-Lite-Omni V1.5 介绍"
 date: 2025-07-17T00:00:03+08:00
 weight: 1
 math: true
@@ -14,7 +14,7 @@ show_word_count: true
 
 
 
-# 前言
+## 前言
 本次发布的 Ming-lite-omni V1.5 是对 Ming-lite-omni 全模态能力的一次全面升级, 在包括图文理解、文档理解、视频理解、语音理解和合成、图像生成和编辑等任务上均有明显提升。Ming-lite-omni V1.5 基于Ling-lite-1.5 构建，总参数20.3B, MoE部分激活参数为3B，在各模态基准测试中，与业界领先的模型相比展现出极具竞争力的结果。下面是我们本次更新在部分重要指标和模型架构上的提升的展示。
 
 
@@ -32,7 +32,7 @@ show_word_count: true
 
 
 
-# 详细介绍
+## 详细介绍
 为了实现这样的提升，我们将自研方案与学术界/开源社区的最新进展相结合，在以下几个部分做了有效尝试，并取得多个重要结论。
 
 **图像/文本/视频/语音理解**
@@ -79,9 +79,9 @@ show_word_count: true
 |      | 自建体验评测集_正确性   | 3.741         | 3.92           |
 
 
-# Demo展示
+## Demo展示
 
-## 图文对话
+### 图文对话
 
 | 图片 | 问题 | Ming-lite-omni回答 | Ming-lite-omni V1.5回答 |
 | --- | --- | --- | --- |
@@ -93,44 +93,46 @@ show_word_count: true
 | ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/7.webp) | 根据图表计算样本之间的 Δct 在哪一个引物下相差最小？ | 根据图表计算样本之间的 Δct 在 cGAS-qF+qR 引物下相差最小。 | 在 **EGFP-cGAS单克隆** 引物下，样本之间的 Δct 相差最小。 <br>  <br> **计算过程：** <br> **1. 理解 Δct 的含义：**   Δct 是目标基因（cGAS-qF+qR 或 EGFP-cGAS）与内参基因（cTubulin）的相对表达量差值。Δct 越小，说明目标基因与内参基因的表达量差异越小。 <br> **2. 比较不同引物下的 Δct：** <br> - **cGAS-qF+qR 引物：**   - 野生型：Δct = 8.06   - EGFP-cGAS单克隆：Δct = -0.15   - 差异：8.06 - (-0.15) = 8.21 <br> - **EGFP-cGAS单克隆 引物：**   - 野生型：Δct = 10.44   - EGFP-cGAS单克隆：Δct = -2.9   - 差异：10.44 - (-2.9) = 13.34 <br> - **EGFP-cGAS-qF+qR 引物：**   - 野生型：Δct = 21.43   - EGFP-cGAS单克隆：Δct = -13.45   - 差异：21.43 - (-13.45) = 34.88 <br> **3. 结论：**   在 **EGFP-cGAS单克隆** 引物下，样本之间的 Δct 差异最小（Δct 差异为 13.34），说明该引物下样本之间的表达量差异最小。 <br>  <br>  **总结：**   在 **EGFP-cGAS单克隆** 引物下，样本之间的 Δct 相差最小。 |
 
 
-## 图像编辑
-【待补充对话编辑一张图】
+### 图像编辑
 
+{{<video src="https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen-VLo/head_en.mov" muted="true" width="100%" loop="true" autoplay="true">}}
 
-
-更多的真实使用样例：
-
-{{<video src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/0.mp4" muted="true" width="100%" loop="true" autoplay="true">}}
-
-## 图像生成
+### 图像生成
 
 {{< fullwidth class="example-container" >}}
 {{< example data="cases/seg.json" hide=false next=true scroll=true >}}
 {{< /fullwidth >}}
 
+<!-- 
 引入<u>多任务协同学习策略</u>。通过联合训练链路实现生成与编辑的相互促进，将分割任务转化为彩色上色编辑任务，显著提升分割指标和图像局部编辑的精度与可控性，使编辑区域边缘更光滑：
 
 <a id="image1"></a>
 <div style="text-align:center">
-  <!-- <img src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/0.webp" alt="Image description" /> -->
+  <img src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/0.webp" alt="Image description" />
   【待补充】
   <p style="font-size:14px; color:gray;">图A【占位】</p>
-</div>
+</div> -->
 
 引入<u>感知增强策略</u>。通过优化结构感知能力，如分割和关键点检测，提升模型对画面细节和空间关系的理解，增强编辑和生成过程的结构可控性，显著提高评测指标中与位置、结构、数量相关的得分：
+<a id="table1"></a>
+|   | 1-Obj | 2-Obj | Counting | Colors | Position | Color Attr | Avg. |
+|---| ---   | ---   | ---      | --- |--- |--- |--- |
+|Ming-lite-omni| 0.99   | 0.77   | 0.68      | 0.78 | 0.46 |0.42 |0.64 |
+|Ming-lite-omni V1.5| 0.99   | 0.93   | 0.86      | 0.87 |0.90 |0.66 |0.87 |  
+
+<!-- <div style="text-align:center">
+  <p style="font-size:14px; color:gray;">表A</p>
+</div> -->
 
 | 原图 | 生成的深度图 | 生成的检测框 | 生成的边缘轮廓 |
 | --- | --- | --- | --- |
 | ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/gen/1752466889319-bd19acce-c07d-4664-9890-41e4dff1ba8d.webp) | ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/gen/1752466903529-996bcd35-a9a0-484b-98bf-2f2468f4df42.webp) | ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/gen/1752466895795-1955ead5-6d94-4142-8d7b-e265352d2bcb.webp) | ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/gen/1752467020122-ad8b436c-bb33-4ef0-85b8-cf45ae8c9be1.webp) |
 
-<a id="table1"></a>
-<div style="text-align:center">
-  <img src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/8.jpg" alt="Image description" />
-  <p style="font-size:14px; color:gray;">表A</p>
-</div>
 
 
-## 语音合成
+
+
+### 语音合成
 | 输入文本 | Ming-lite-omni | Ming-lite-omni V1.5 |
 | --- | --- | --- |
 | Tyler, Lucy, Michelle, we're going to space! | <audio controls><source src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/tts_en1_v1.wav" type="audio/wav"></audio>  | <audio controls><source src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/tts_en1_v1.5.wav" type="audio/wav"></audio>  |
@@ -138,10 +140,8 @@ show_word_count: true
 | Television can make you dumb, but it can also be good education. | <audio controls><source src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/tts_en3_v1.wav" type="audio/wav"></audio>  | <audio controls><source src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/tts_en3_v1.5.wav" type="audio/wav"></audio>  |
 
 
-## 视频理解
-【待补充】
 
-## OCR文档理解
+### OCR文档理解
 | 图片 | 问题 | Ming-lite-omni回答 | Ming-lite-omni V1.5回答 |
 | --- | --- | --- | --- |
 | ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/9.webp) | 在判断题第95题中，考生答题的手写内容是什么？若考生的手写答案为√则输出对，若考生的手写答案为×则输出错，请输出对或错 | 对 | 错 |
@@ -151,7 +151,7 @@ show_word_count: true
 | ![](https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/13.webp) | What is the difference in value between Lamb and Corn?' You FIRST think about the reasoning process as an internal monologue and then provide the final answer. The reasoning process MUST BE enclosed within <think> </think> tags. The final answer MUST BE put in \\boxed{}.' | 0.37 | <think><br/>The value for Lamb is 103.7 and for Corn is 103.13. To find the difference, subtract the smaller value from the larger value: 103.7 - 103.13 = 0.57.<br/></think><br/>\boxed{0.57} |
 
 
-# 开始使用 Ming-lite-omni v1.5
+## 开始使用 Ming-lite-omni v1.5
 
 Ming-lite-omni v1.5的模型和代码已开源，欢迎大家试用、反馈和交流。后续我们会持续优化Ming-lite-omni，持续提升在全模态的效果同时，让Ming-lite-omni更加轻量化，同时强化Ming-lite-omni的多模推理能力和生成能力。
   - Github: https://github.com/inclusionAI/Ming
