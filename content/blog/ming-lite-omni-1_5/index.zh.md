@@ -88,8 +88,10 @@ show_word_count: true
 ### 图像编辑
 为了解决图像编辑时的人物ID及场景ID一致性问题，我们新增了<u>ID & Scene Consistency Loss</u>，增大目标图编辑区域的权重、增大参考图非编辑区域的参考强度、降低参考图编辑区域的参考强度。
 <div style="text-align:center">
+<img src="https://mdn.alipayobjects.com/huamei_aukff7/afts/img/e-mDS5UyUogAAAAAgCAAAAgAeuUHAQFr/fmt.webp" alt="Image description" />
 <video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/UoqbRYQnZYEAAAAAgCAAAAgAeuUHAQFr" controls></video>
 </div>
+
 {{< fullwidth class="example-container" >}}
 {{< example data="cases/seg.json" hide=false next=true scroll=true >}}
 {{< /fullwidth >}}
