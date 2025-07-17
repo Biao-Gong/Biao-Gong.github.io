@@ -87,7 +87,9 @@ show_word_count: true
 
 ### 图像编辑
 
-{{<video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/UoqbRYQnZYEAAAAAgCAAAAgAeuUHAQFr" muted="true" width="100%" loop="true" autoplay="true">}}
+<!-- {{<video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/UoqbRYQnZYEAAAAAgCAAAAgAeuUHAQFr" muted="true" width="100%" loop="true" autoplay="true">}} -->
+<video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/UoqbRYQnZYEAAAAAgCAAAAgAeuUHAQFr" controls></video>
+
 
 {{< fullwidth class="example-container" >}}
 {{< example data="cases/seg.json" hide=false next=true scroll=true >}}
