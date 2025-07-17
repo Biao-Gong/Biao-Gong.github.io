@@ -86,7 +86,9 @@ show_word_count: true
 {{< /fullwidth >}}
 
 ### 图像编辑
+<div style="text-align:center">
 <video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/UoqbRYQnZYEAAAAAgCAAAAgAeuUHAQFr" controls></video>
+</div>
 {{< fullwidth class="example-container" >}}
 {{< example data="cases/seg.json" hide=false next=true scroll=true >}}
 {{< /fullwidth >}}
