@@ -139,6 +139,7 @@ show_word_count: true
 
 
 ## 视频理解
+【待补充】
 
 ## OCR文档理解
 | 图片 | 问题 | Ming-lite-omni回答 | Ming-lite-omni V1.5回答 |
