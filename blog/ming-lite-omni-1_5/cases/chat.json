@@ -1,0 +1,40 @@
+{
+    "title": "图文对话",
+    "messages": [
+        {
+            "role": "User",
+            "content": "{{< figure src=\"https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/2.jpg\" height=\"256px\" >}}\n 这张图片看起来设计感很强烈，可以详细描述一下它的各个设计元素？"
+
+        },
+        {
+            "role": "Ming-Lite-Omni",
+            "content": "这张图片展示了一款高端游戏鼠标，具有现代感和科技感的设计。鼠标主体为黑色，表面光滑且具有金属质感。鼠标顶部有一个蓝色的发光标志，标志下方是鼠标滚轮和左右按键区域。鼠标侧面有蓝色的灯光装饰，增加了视觉吸引力。鼠标底部有防滑纹理设计，确保使用时的稳定性。整体设计简洁而富有未来感，适合游戏玩家使用。"
+
+        },
+        {
+            "role": "Ming-Lite-Omni V1.5",
+            "content": "这张图片展示了一款设计感强烈的游戏鼠标，具有以下设计元素： <br> 1. **颜色和材质**：   - 鼠标主体为黑色，表面光滑且具有金属质感。   - 鼠标边缘和按钮部分有蓝色LED灯带，增加了科技感和视觉吸引力。 <br> 2. **形状和结构**：   - 鼠标整体呈流线型设计，顶部略微倾斜，便于手部自然放置。   - 鼠标侧面有明显的曲线设计，符合人体工程学，提供舒适的握持感。 <br> 3. **按钮和滚轮**：   - 鼠标左侧有一个滚轮，滚轮上方有蓝色LED灯带。   - 鼠标右侧有额外的按钮，这些按钮也有蓝色LED灯带，增加了功能性和美观性。 <br> 4. **品牌标识**：   - 鼠标底部中央有一个发光的“G”标志，这是该品牌的标志性设计元素。 <br> 5. **灯光效果**：   - 鼠标上的蓝色LED灯带在暗色背景下显得尤为突出，增强了科技感和未来感。 <br> 6. **纹理和细节**：   - 鼠标顶部有纹理设计，可能是为了增加防滑效果。   - 鼠标侧面有细长的纹理设计，增加了视觉上的层次感。 <br> 整体来看，这款鼠标的设计结合了现代科技感和人体工程学设计，既美观又实用，适合游戏玩家使用。"
+
+        },        
+        {
+            "role": "User",
+            "content": "Please segment different classes in this image."
+
+        },
+        {
+            "role": "Ming-Lite-Omni V1.5",
+            "content": "{{< figure src=\"https://gcore.jsdelivr.net/gh/biao-gong/static@main/gen/1752116495974-7708ba3a-5909-46df-82f5-a1bfa1519d4d.webp\" height=\"256px\" >}}"
+
+        },
+                {
+            "role": "User",
+            "content": "Please segment different instances in this image."
+
+        },
+        {
+            "role": "Ming-Lite-Omni V1.5",
+            "content": "{{< figure src=\"https://gcore.jsdelivr.net/gh/biao-gong/static@main/gen/1752115151406-c4780a97-5f1c-46cd-9a45-d4ef600d0897.webp\" height=\"256px\" >}}"
+
+        }
+    ]
+}
