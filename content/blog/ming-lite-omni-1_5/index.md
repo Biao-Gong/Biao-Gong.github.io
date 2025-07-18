@@ -21,13 +21,13 @@ Built on the Ling-lite-1.5 architecture, Ming-lite-omni V1.5 features a total of
 
 
 <div style="text-align:center;margin: auto; width: 70%;">
-  <img src="https://mdn.alipayobjects.com/huamei_aukff7/afts/img/bYseTozopmYAAAAAblAAAAgAeuUHAQFr/fmt.webp" alt="Image description" />
+  <img src="https://mdn.alipayobjects.com/huamei_aukff7/afts/img/2rsRTbFpQrcAAAAAZoAAAAgAeuUHAQFr/fmt.webp" alt="Image description" />
   <p style="font-size:14px; color:gray;">Performance Comparison</p>
 </div>
 
 
 <div style="text-align:center">
-  <!-- <img src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/1-a.webp" alt="Image description" /> -->
+  <img src="https://mdn.alipayobjects.com/huamei_aukff7/afts/img/A_LZTJcsc3EAAAAAXuAAAAgAeuUHAQFr/fmt.webp" alt="Image description" />
   <p style="font-size:14px; color:gray;">Framework</p>
 </div>
 
