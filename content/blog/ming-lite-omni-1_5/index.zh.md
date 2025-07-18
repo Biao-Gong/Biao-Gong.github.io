@@ -78,6 +78,50 @@ show_word_count: true
 | 正确性   | 3.741         | 3.92           |
 | **均分**            | **4.274**         | **4.365**          |
 
+<div style="text-align: center; margin: auto; width: 50%; line-height: 1.1;">
+  <table style="margin: 0 auto;">
+    <thead>
+      <tr>
+        <th style="text-align: center;">评测维度</th>
+        <th style="text-align: center;">Qwen2.5-VL-7B</th>
+        <th style="text-align: center;">Ming-Omni-Lite V1.5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center;">相关性</td>
+        <td style="text-align: center;">4.308</td>
+        <td style="text-align: center;">4.5</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">流畅性</td>
+        <td style="text-align: center;">4.765</td>
+        <td style="text-align: center;">4.91</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">内容丰富性</td>
+        <td style="text-align: center;">3.828</td>
+        <td style="text-align: center;">3.69</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">格式合理性</td>
+        <td style="text-align: center;">4.727</td>
+        <td style="text-align: center;">4.8</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">正确性</td>
+        <td style="text-align: center;">3.741</td>
+        <td style="text-align: center;">3.92</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><strong>均分</strong></td>
+        <td style="text-align: center;"><strong>4.274</strong></td>
+        <td style="text-align: center;"><strong>4.365</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 <br>
 
 ## Demo展示
