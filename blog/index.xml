@@ -9,17 +9,16 @@
       <link>https://Biao-Gong.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Jul 2025 00:00:03 +0800</lastBuildDate><atom:link href="https://Biao-Gong.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Jul 2025 00:00:03 +0800</lastBuildDate><atom:link href="https://Biao-Gong.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ming-Lite-Omni V1.5</title>
+      <title>Introducing Ming-Lite-Omni V1.5</title>
       <link>https://Biao-Gong.github.io/blog/ming-lite-omni-1_5/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:03 +0800</pubDate>
+      <pubDate>Fri, 18 Jul 2025 00:00:03 +0800</pubDate>
       
       <guid>https://Biao-Gong.github.io/blog/ming-lite-omni-1_5/</guid>
-      <description>【英文版待更新】 GITHUB Ming-Lite-Omni V1.5 整体评测结果 复杂文档理解 图文及体验 定义视频理解新标杆 在追求通用人工智能（AGI）的道路上，多模态大语言模型（MLLM）对视频内容的理解能力至关重要。现实世界的信息是动态、连续的，视频承载着远超静态图像的丰富时空语义。 Ming-Omni-Lite 在多项核心视频理解基准测试中取得了突破性进展。
-性能 我们选取了当前最具代表性和挑战性的视频理解基准，将 Ming-Omni-Lite 与业界顶尖的同体量模型（Qwen2.5-VL-7B, Qwen2.5-Omni-7B, InternVL3-8B）进行了全面对比。结果评测结果展示了 Ming-Omni-Lite 的卓越性能：
-评测基准 Qwen2.5-VL-7B Qwen2.5-Omni-7B InternVL3-8B Ming-Omni-Lite VideoMME(w/o subs) 65.10 64.30 66.30 67.07 VideoMME(w/ subs) 71.60 72.40 68.90 72.59 VideoMME(avg) 68.35 68.35 67.60 69.83 MVBench 69.60 70.30 75.40 69.43 LongVideoBench 56.00 54.82 58.80 59.54 OvOBench 51.10 50.46 51.91 52.17 技术背后 Ming-Omni-Lite 在视频理解，尤其是长视频理解上的突破，源于我们在模型架构和训练策略上的多项创新：
-高效的时空建模器： 加入3D RoPE，能更有效地捕捉视频帧内（空间）和帧间（时间）的依赖关系，提取关键的动态信息。 高质量、多样化的视频-文本对齐数据： 构建了大规模、涵盖丰富场景和任务的长/短视频-文本对数据集以及TPO（task-perference optimization）数据，包括时间检索以及视频跟踪。我们进行了精细清洗，确保模型学习到精准的对齐能力。 创新的训练目标与课程学习： 结合了视频特有的预训练和指令微调目标，并采用从短到长的课程学习策略，逐步提升模型处理长视频的复杂度。 迈向更智能的视频交互 Ming-Omni-Lite 在和同尺寸SOTA模型的视频理解基准评测上保持领先，它证明了 Ming-Omni-Lite 具备处理复杂、长时间、信息密集视频内容的强大能力，为视频摘要、长视频问答、智能教学、视频内容审核、人机交互等广泛应用场景奠定了坚实的基础。我们将持续投入研发，进一步释放 Ming-Omni-Lite 在视频乃至多模态领域的潜力，致力于打造能够真正理解、推理和与现实世界交互的智能体。</description>
+      <description>GITHUB 🤗 Hugging Face｜ 🤖 ModelScope
+We are excited to introduce Ming-lite-omni V1.5, a comprehensive upgrade that significantly enhances the omni-modal capabilities of the original Ming-lite-omni model (find it on 🤗Hugging Face). This new version delivers remarkable improvements across a wide range of tasks, including image and text understanding, document analysis, video comprehension, speech understanding and synthesis, as well as image generation and editing.
+Built on the Ling-lite-1.5 architecture, Ming-lite-omni V1.</description>
     </item>
     
     <item>
