@@ -82,41 +82,41 @@ show_word_count: true
   <table style="margin: 0 auto;">
     <thead>
       <tr>
-        <th style="text-align: center;">评测维度</th>
-        <th style="text-align: center;">Qwen2.5-VL-7B</th>
-        <th style="text-align: center;">Ming-Omni-Lite V1.5</th>
+        <th style="text-align: center;padding: 5px;">评测维度</th>
+        <th style="text-align: center;padding: 5px;">Qwen2.5-VL-7B</th>
+        <th style="text-align: center;padding: 5px;">Ming-Omni-Lite V1.5</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="text-align: center;">相关性</td>
-        <td style="text-align: center;">4.308</td>
-        <td style="text-align: center;">4.5</td>
+        <td style="text-align: center;padding: 2px;">相关性</td>
+        <td style="text-align: center;padding: 2px;">4.308</td>
+        <td style="text-align: center;padding: 2px;">4.5</td>
       </tr>
       <tr>
-        <td style="text-align: center;">流畅性</td>
-        <td style="text-align: center;">4.765</td>
-        <td style="text-align: center;">4.91</td>
+        <td style="text-align: center;padding: 2px;">流畅性</td>
+        <td style="text-align: center;padding: 2px;">4.765</td>
+        <td style="text-align: center;padding: 2px;">4.91</td>
       </tr>
       <tr>
-        <td style="text-align: center;">内容丰富性</td>
-        <td style="text-align: center;">3.828</td>
-        <td style="text-align: center;">3.69</td>
+        <td style="text-align: center;padding: 2px;">内容丰富性</td>
+        <td style="text-align: center;padding: 2px;">3.828</td>
+        <td style="text-align: center;padding: 2px;">3.69</td>
       </tr>
       <tr>
-        <td style="text-align: center;">格式合理性</td>
-        <td style="text-align: center;">4.727</td>
-        <td style="text-align: center;">4.8</td>
+        <td style="text-align: center;padding: 2px;">格式合理性</td>
+        <td style="text-align: center;padding: 2px;">4.727</td>
+        <td style="text-align: center;padding: 2px;">4.8</td>
       </tr>
       <tr>
-        <td style="text-align: center;">正确性</td>
-        <td style="text-align: center;">3.741</td>
-        <td style="text-align: center;">3.92</td>
+        <td style="text-align: center;padding: 2px;">正确性</td>
+        <td style="text-align: center;padding: 2px;">3.741</td>
+        <td style="text-align: center;padding: 2px;">3.92</td>
       </tr>
       <tr>
-        <td style="text-align: center;"><strong>均分</strong></td>
-        <td style="text-align: center;"><strong>4.274</strong></td>
-        <td style="text-align: center;"><strong>4.365</strong></td>
+        <td style="text-align: center;padding: 2px;"><strong>均分</strong></td>
+        <td style="text-align: center;padding: 2px;"><strong>4.274</strong></td>
+        <td style="text-align: center;padding: 2px;"><strong>4.365</strong></td>
       </tr>
     </tbody>
   </table>
