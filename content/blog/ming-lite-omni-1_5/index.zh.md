@@ -18,7 +18,7 @@ show_word_count: true
 本次发布的 Ming-lite-omni V1.5 是对 Ming-lite-omni (🤗<a href="https://huggingface.co/inclusionAI/Ming-Lite-Omni">Hugging Face</a>) 全模态能力的一次全面升级, 在包括图文理解、文档理解、视频理解、语音理解和合成、图像生成和编辑等任务上均有明显提升。Ming-lite-omni V1.5 基于Ling-lite-1.5 构建，总参数20.3B, MoE部分激活参数为3B，在各模态基准测试中取得较好的成绩。下面是我们本次更新在部分重要指标和模型架构上的提升的展示。
 
 
-<div style="text-align:center">
+<div style="text-align:center;margin: auto; width: 70%;">
   <img src="https://mdn.alipayobjects.com/huamei_aukff7/afts/img/bYseTozopmYAAAAAblAAAAgAeuUHAQFr/fmt.webp" alt="Image description" />
   <p style="font-size:14px; color:gray;">性能对比图【待修改】</p>
 </div>
