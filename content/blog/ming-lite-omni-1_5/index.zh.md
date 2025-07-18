@@ -85,7 +85,7 @@ show_word_count: true
   <table style="margin: 0 auto;">
     <thead>
       <tr>
-        <th style="text-align: center;padding: 5px;">评测维度</th>
+        <th style="text-align: center;padding: 5px;">自建体验集评测维度</th>
         <th style="text-align: center;padding: 5px;">Qwen2.5-VL-7B</th>
         <th style="text-align: center;padding: 5px;">Ming-Omni-Lite V1.5</th>
       </tr>
