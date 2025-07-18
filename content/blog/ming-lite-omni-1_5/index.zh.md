@@ -69,6 +69,7 @@ show_word_count: true
 为了保证我们模型的真实使用体验与常用Benchmark上的提升一致，我们自建了<u>体验评测集</u>，在内部进行多模型的人工对抗评分。得益于高质量的对齐偏好数据构建， Ming-lite-omni v1.5 在图文问答的内容准确性（低幻觉率）、相关性、格式美观性以及表述流畅性方面相比领先模型展现出一定优势， Ming-lite-omni v1.5在内部对抗评测集上相比Ming-lite-omni v1 胜和率为 87.07%, 使用体验得到了明显优化。  
 
 
+
 <!-- | 评测维度          | Qwen2.5-VL-7B | Ming-Omni-Lite V1.5 |
 |:---------------:|:---------------:|:---------------:|
 | 相关性   | 4.308         | 4.5            |
@@ -77,6 +78,8 @@ show_word_count: true
 | 格式合理性 | 4.727         | 4.8            |
 | 正确性   | 3.741         | 3.92           |
 | **均分**            | **4.274**         | **4.365**          | -->
+
+
 
 <div style="text-align: center; margin: auto; width: 50%; line-height: 1.1;">
   <table style="margin: 0 auto;">
