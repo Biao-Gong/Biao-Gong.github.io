@@ -10,12 +10,12 @@ show_code_copy_buttons: true
 show_word_count: true
 ---
 
-{{< button href="https://github.com/inclusionAI/Ming " label="GITHUB" external=true >}} 🤗 <a href="https://huggingface.co/inclusionAI/Ming-Lite-Omni-1.5">Hugging Face</a>｜ 🤖 <a href="https://www.modelscope.cn/models/inclusionAI/Ming-Lite-Omni-1.5">ModelScope</a>
+{{< button href="https://github.com/inclusionAI/Ming" label="GITHUB" external=true >}} 🤗 <a href="https://huggingface.co/inclusionAI/Ming-Lite-Omni-1.5">Hugging Face</a>｜ 🤖 <a href="https://www.modelscope.cn/models/inclusionAI/Ming-Lite-Omni-1.5">ModelScope</a>
 
 
 
 ## 前言
-本次发布的 Ming-lite-omni V1.5 是对 Ming-lite-omni 全模态能力的一次全面升级, 在包括图文理解、文档理解、视频理解、语音理解和合成、图像生成和编辑等任务上均有明显提升。Ming-lite-omni V1.5 基于Ling-lite-1.5 构建，总参数20.3B, MoE部分激活参数为3B，在各模态基准测试中取得较好的成绩。下面是我们本次更新在部分重要指标和模型架构上的提升的展示。
+本次发布的 Ming-lite-omni V1.5 是对 Ming-lite-omni (🤗<a href="https://huggingface.co/inclusionAI/Ming-Lite-Omni">Hugging Face</a>) 全模态能力的一次全面升级, 在包括图文理解、文档理解、视频理解、语音理解和合成、图像生成和编辑等任务上均有明显提升。Ming-lite-omni V1.5 基于Ling-lite-1.5 构建，总参数20.3B, MoE部分激活参数为3B，在各模态基准测试中取得较好的成绩。下面是我们本次更新在部分重要指标和模型架构上的提升的展示。
 
 
 <div style="text-align:center">
