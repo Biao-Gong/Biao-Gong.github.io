@@ -1,6 +1,6 @@
 ---
 title: "Ming-Lite-Omni V1.5 介绍"
-date: 2025-07-17T00:00:03+08:00
+date: 2025-07-18T00:00:03+08:00
 weight: 1
 math: true
 show_reading_time: true
@@ -19,7 +19,7 @@ show_word_count: true
 
 
 <div style="text-align:center">
-  <!-- <img src="https://gcore.jsdelivr.net/gh/biao-gong/static@main/0715/0-a.webp" alt="Image description" /> -->
+  <img src="https://mdn.alipayobjects.com/huamei_aukff7/afts/img/bYseTozopmYAAAAAblAAAAgAeuUHAQFr/fmt.webp" alt="Image description" />
   <p style="font-size:14px; color:gray;">性能对比图【待修改】</p>
 </div>
 
