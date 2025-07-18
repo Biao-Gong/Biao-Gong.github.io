@@ -81,7 +81,7 @@ show_word_count: true
 
 
 
-<div style="text-align: center; margin: auto; width: 50%; line-height: 1.1;">
+<div style="text-align: center; margin: auto; width: 80%; line-height: 1.1;">
   <table style="margin: 0 auto;">
     <thead>
       <tr>
