@@ -184,9 +184,6 @@ show_word_count: true
 
 
 
-<!-- {{< fullwidth class="example-container" >}}
-{{< example data="cases/videound.json" hide=false next=true scroll=true >}}
-{{< /fullwidth >}} -->
 
 
 
