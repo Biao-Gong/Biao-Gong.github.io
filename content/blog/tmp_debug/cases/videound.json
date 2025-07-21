@@ -3,7 +3,7 @@
     "messages": [
         {
             "role": "User",
-            "content": "{{<video src=\"https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/tMqiS4N2yPAAAAAAgEAAAAgAeuUHAQFr\" height=\"256px\" controls></video>}}\n 视频里的小女孩在做什么？"
+            "content": "{{<video src=\"https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/tMqiS4N2yPAAAAAAgEAAAAgAeuUHAQFr\" height=\"256px\"></video>}}\n 视频里的小女孩在做什么？"
 
         },
 
@@ -19,7 +19,7 @@
         },        
         {
             "role": "User",
-            "content": "{{<video src=\"https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/NGX_T5E13IAAAAAAgIAAAAgAfoeUAQBr\" height=\"256px\" controls></video>}}\n 描述下视频中主人公的穿着。"
+            "content": "{{<video src=\"https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/NGX_T5E13IAAAAAAgIAAAAgAfoeUAQBr\" height=\"256px\"></video>}}\n 描述下视频中主人公的穿着。"
 
         },
         {
@@ -34,7 +34,7 @@
         },        
         {
             "role": "User",
-            "content": "{{<video src=\"https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/KD6LTqp9VTsAAAAAgMAAAAgAfoeUAQBr\" height=\"256px\" controls></video>}}\n 推测一下这个视频的拍摄时间和位置。"
+            "content": "{{<video src=\"https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/KD6LTqp9VTsAAAAAgMAAAAgAfoeUAQBr\" height=\"256px\"></video>}}\n 推测一下这个视频的拍摄时间和位置。"
 
         },
         {
