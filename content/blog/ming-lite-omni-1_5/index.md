@@ -186,7 +186,161 @@ We introduced a **Perceptual Enhancement Strategy** by optimizing the model's st
 {{< /fullwidth >}}
 
 
+### Video Understanding
+<table style="
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    border: none;
+    font-size: 14.4px;
+">
+    <tr>
+        <td style="
+            padding: 10px;
+            text-align: right;
+            vertical-align: top;
+            color: #777;
+            border: none;
+            white-space: nowrap;
+        ">Users</td>
+        <td style="
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        "><video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/tMqiS4N2yPAAAAAAgEAAAAgAeuUHAQFr" height="256px" controls></video><br>What is the little girl doing in the video?</td>
+    </tr>
+    <tr>
+        <td style="
+            padding: 10px;
+            text-align: right;
+            vertical-align: top;
+            color: #777;
+            border: none;
+            white-space: nowrap;
+        ">Ming-Lite-Omni</td>
+        <td style="
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        ">The scene in the video takes place in a store, possibly a supermarket or large retail store, with shelves filled with various products including snacks and household items. The little girl in the video is pulling a display rack, apparently trying to move or play with it. Price tags are clearly visible, with one prominently displaying '18,690' in blue and white. The store is well-lit with fluorescent lights illuminating the entire area. If you need more detailed analysis or other assistance, please let me know!</td>
+    </tr>
+    <tr>
+        <td style="
+            padding: 10px;
+            text-align: right;
+            vertical-align: top;
+            color: #777;
+            border: none;
+            white-space: nowrap;
+        ">Ming-Lite-Omni V1.5</td>
+        <td style="
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        ">The little girl is sleeping in a shopping cart.</td>
+    </tr>
+    <tr>
+        <td style="
+            padding: 10px;
+            text-align: right;
+            vertical-align: top;
+            color: #777;
+            border: none;
+            white-space: nowrap;
+        ">Users</td>
+        <td style="
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        "><video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/NGX_T5E13IAAAAAAgIAAAAgAfoeUAQBr" height="192px" controls></video><br>Describe the protagonist's clothing in the video.</td>
+    </tr>
+    <tr>
+        <td style="
+            padding: 10px;
+            text-align: right;
+            vertical-align: top;
+            color: #777;
+            border: none;
+            white-space: nowrap;
+        ">Ming-Lite-Omni</td>
+        <td style="
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        ">In the video, the protagonist is wearing a red top and carrying a bag with colorful patterns on their shoulder.</td>
+    </tr>
+    <tr>
+        <td style="
+            padding: 10px;
+            text-align: right;
+            vertical-align: top;
+            color: #777;
+            border: none;
+            white-space: nowrap;
+        ">Ming-Lite-Omni V1.5</td>
+        <td style="
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        ">The protagonist in the video is wearing a red turtleneck sweater.</td>
+    </tr>
+    <tr>
+        <td style="
+            padding: 10px;
+            text-align: right;
+            vertical-align: top;
+            color: #777;
+            border: none;
+            white-space: nowrap;
+        ">Users</td>
+        <td style="
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        "><video src="https://gw.alipayobjects.com/v/huamei_aukff7/afts/video/KD6LTqp9VTsAAAAAgMAAAAgAfoeUAQBr" height="192px" controls></video><br>Guess the time and location where this video was filmed.</td>
+    </tr>
+    <tr>
+        <td style="
+            padding: 10px;
+            text-align: right;
+            vertical-align: top;
+            color: #777;
+            border: none;
+            white-space: nowrap;
+        ">Ming-Lite-Omni</td>
+        <td style="
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        ">Judging from the scenes in the video, this was likely filmed in New York's Central Park. The video shows iconic buildings and landscapes of Central Park, such as its lakes, bridges, and statues. Additionally, there are tourists walking, taking photos, and enjoying outdoor activities in the park, which further confirms that the filming location is New York's Central Park.</td>
+    </tr>
+    <tr>
+        <td style="
+            padding: 10px;
+            text-align: right;
+            vertical-align: top;
+            color: #777;
+            border: none;
+            white-space: nowrap;
+        ">Ming-Lite-Omni V1.5</td>
+        <td style="
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        ">From the scenes in the video, the filming location appears to be New York's Central Park. The video showcases multiple attractions within the park, including lakes, bridges, statues, and fountains. The filming time seems to be during the daytime, with bright sunshine and clear weather, making it suitable for outdoor activities.</td>
+    </tr>
+</table>
 
+<br>
 
 
 ## Get Started with Ming-lite-omni v1.5
