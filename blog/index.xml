@@ -129,5 +129,16 @@ We introduce AgenticLearning, an open-source agent training paradigm designed to
 Model Downloads You can download the following table to see the various parameters for your use case.</description>
     </item>
     
+    <item>
+      <title>debug</title>
+      <link>https://Biao-Gong.github.io/blog/tmp_debug/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:03 +0800</pubDate>
+      
+      <guid>https://Biao-Gong.github.io/blog/tmp_debug/</guid>
+      <description>GITHUB 🤗 Hugging Face｜ 🤖 ModelScope
+We are excited to introduce Ming-lite-omni V1.5, a comprehensive upgrade that significantly enhances the omni-modal capabilities of the original Ming-lite-omni model (find it on 🤗Hugging Face). This new version delivers remarkable improvements across a wide range of tasks, including image and text understanding, document analysis, video comprehension, speech understanding and synthesis, as well as image generation and editing.
+Built on the Ling-lite-1.5 architecture, Ming-lite-omni V1.</description>
+    </item>
+    
   </channel>
 </rss>
