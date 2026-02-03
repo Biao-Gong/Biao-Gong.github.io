@@ -10,13 +10,13 @@
     <strong>Qiyuan Zhang</strong>
     ·
     <strong>Shuai Tan</strong>
-    <br>
+    ·
     <strong>Zheng Zhang</strong>
     ·
     <strong>Hengyuan Cao</strong>
     ·
     <strong>Jiancheng Pan</strong>
-    ·
+    <br>
     <strong>Xing Zhu</strong>
     ·
     <strong>Yujun Shen</strong>
